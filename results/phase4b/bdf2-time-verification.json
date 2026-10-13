@@ -1,0 +1,26 @@
+[
+  {
+    "dt": 0.04,
+    "relative_mass_velocity_error": 0.0002252006814344428,
+    "residual": 1.9815061767839675e-11,
+    "order": null
+  },
+  {
+    "dt": 0.02,
+    "relative_mass_velocity_error": 5.570182954293274e-05,
+    "residual": 7.235805514928213e-15,
+    "order": 2.0154145736757285
+  },
+  {
+    "dt": 0.01,
+    "relative_mass_velocity_error": 1.3856554099546237e-05,
+    "residual": 1.3330465225867911e-11,
+    "order": 2.0071561868841483
+  },
+  {
+    "dt": 0.005,
+    "relative_mass_velocity_error": 3.455845714633134e-06,
+    "residual": 4.4566664424693985e-13,
+    "order": 2.0034578119084743
+  }
+]

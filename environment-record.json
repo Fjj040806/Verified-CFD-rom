@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "scikit-fem": "12.0.2",
+    "gmsh": "4.15.2",
+    "meshio": "5.3.5"
+  },
+  "note": "Observed release environment; not a dependency lock."
+}

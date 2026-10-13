@@ -1,0 +1,69 @@
+{
+  "cg": [
+    {
+      "rtol": 0.001,
+      "iterations": 54,
+      "rhs_mean_before": 6.217248937900877e-15,
+      "absolute_residual": 61.26661147660103,
+      "relative_residual": 0.0009605972633076497,
+      "divergence_rms": 0.01914581608643778,
+      "identity_max_error": 1.5133727604421665e-14,
+      "energy_before": 1.006233066264139,
+      "energy_after": 0.5198923477627287
+    },
+    {
+      "rtol": 1e-05,
+      "iterations": 96,
+      "rhs_mean_before": 6.217248937900877e-15,
+      "absolute_residual": 0.6183650475388054,
+      "relative_residual": 9.695326019747997e-06,
+      "divergence_rms": 0.00019323907735587317,
+      "identity_max_error": 1.453058593586798e-14,
+      "energy_before": 1.006233066264139,
+      "energy_after": 0.5198840762939455
+    },
+    {
+      "rtol": 1e-07,
+      "iterations": 119,
+      "rhs_mean_before": 6.217248937900877e-15,
+      "absolute_residual": 0.00499950671914204,
+      "relative_residual": 7.838710770107186e-08,
+      "divergence_rms": 1.562345849737676e-06,
+      "identity_max_error": 1.413980050938863e-14,
+      "energy_before": 1.006233066264139,
+      "energy_after": 0.5198840761106815
+    },
+    {
+      "rtol": 1e-09,
+      "iterations": 135,
+      "rhs_mean_before": 6.217248937900877e-15,
+      "absolute_residual": 6.0123582326720095e-05,
+      "relative_residual": 9.4267574542387e-10,
+      "divergence_rms": 1.878861945009944e-08,
+      "identity_max_error": 1.3642420526064528e-14,
+      "energy_before": 1.006233066264139,
+      "energy_after": 0.5198840761106718
+    },
+    {
+      "rtol": 1e-11,
+      "iterations": 148,
+      "rhs_mean_before": 6.217248937900877e-15,
+      "absolute_residual": 6.040745791746631e-07,
+      "relative_residual": 9.471266218314024e-12,
+      "divergence_rms": 1.8877333258240936e-10,
+      "identity_max_error": 1.5560885913149813e-14,
+      "energy_before": 1.006233066264139,
+      "energy_after": 0.5198840761106718
+    }
+  ],
+  "fft": {
+    "iterations": 0,
+    "rhs_mean_before": 6.217248937900877e-15,
+    "absolute_residual": 2.5331216321643093e-11,
+    "relative_residual": 3.9716733940994485e-16,
+    "divergence_rms": 8.075638853409676e-15,
+    "identity_max_error": 1.5987211554602254e-14,
+    "energy_before": 1.006233066264139,
+    "energy_after": 0.5198840761106719
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source": "https://wwwold.mathematik.tu-dortmund.de/~featflow/media/dfg_bench2new_2d/20141124_dfg_bench2_official.zip",
+  "file": "bdforces_q2_lv6_dt4",
+  "cd_min": 3.1642636519,
+  "cd_max": 3.2273925778,
+  "cl_min": -1.0212877562,
+  "cl_max": 0.98657070159,
+  "period": 0.33124999999999893,
+  "st": 0.3018867924528312,
+  "dt": 0.0006249999999994316
+}

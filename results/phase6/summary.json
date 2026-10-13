@@ -1,0 +1,1856 @@
+{
+  "protocol": {
+    "rank_cadence": 6,
+    "rank_phase": [
+      10,
+      20
+    ],
+    "rank_window": 10,
+    "common_future_offsets": [
+      0.16,
+      0.32,
+      0.48,
+      0.64
+    ],
+    "fixed_duration": 1.6,
+    "fixed_samples": 11,
+    "phase_training_duration": 1.2,
+    "phase_prediction_duration": 1.2,
+    "pseudoinverse_rcond": 1e-10,
+    "test_role": "Controlled diagnostics; no model/hyperparameter selection",
+    "limitations": [
+      "Cadence, duration and sample count obey N-1=T/dt; they cannot all be held fixed while dt varies.",
+      "Four common evaluation times do not resolve all within-cycle forecast errors.",
+      "Phase windows overlap on one deterministic trajectory; no independent replicates or confidence intervals.",
+      "Entire study concerns the same Re100 mesh and numerical solver."
+    ]
+  },
+  "force_frequency": 2.9875647650396386,
+  "cadence_fixed_duration": [
+    {
+      "rank": 6,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 161,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.009892072288742415,
+        "fluctuation_relative": 0.03932496785949656
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.016673854924127405,
+            "fluctuation_relative": 0.06628528278462248
+          },
+          "frequency": 2.988148454357788,
+          "frequency_relative_error": 0.00019537294219684753,
+          "spectral_radius": 0.9999750666926887,
+          "design_condition": 8.730020155502048,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 160,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.01638026861545531,
+            "fluctuation_relative": 0.06474591588690931
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.009899064535328055,
+            "fluctuation_relative": 0.039352764853313404
+          },
+          "frequency": 2.987508009811681,
+          "frequency_relative_error": 1.8997154010547135e-05,
+          "spectral_radius": 1.0000007824634791,
+          "design_condition": 45.22729307061405,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 160,
+          "bias_norm": 0.0019972030290580597,
+          "common_error": {
+            "total_relative": 0.009737533610065801,
+            "fluctuation_relative": 0.038489328036318535
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.020000000000003126,
+      "training_samples": 81,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 32,
+      "pod_native_error": {
+        "total_relative": 0.009892551083069861,
+        "fluctuation_relative": 0.03933294237103783
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.015253185045750683,
+            "fluctuation_relative": 0.06064690930998055
+          },
+          "frequency": 2.988684465428839,
+          "frequency_relative_error": 0.0003747869844707985,
+          "spectral_radius": 0.9999262190429209,
+          "design_condition": 8.728527463570597,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 80,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.014979237313673135,
+            "fluctuation_relative": 0.05919946049687779
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.009898810350503601,
+            "fluctuation_relative": 0.03935782931912522
+          },
+          "frequency": 2.9875094677805087,
+          "frequency_relative_error": 1.8509141551326103e-05,
+          "spectral_radius": 1.0000015631879986,
+          "design_condition": 45.29142473296803,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 80,
+          "bias_norm": 0.0034516949823149247,
+          "common_error": {
+            "total_relative": 0.009779449321719749,
+            "fluctuation_relative": 0.03864937257345596
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.04000000000000625,
+      "training_samples": 41,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 16,
+      "pod_native_error": {
+        "total_relative": 0.009961958654357124,
+        "fluctuation_relative": 0.03961185114670358
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.012737123116603077,
+            "fluctuation_relative": 0.050646769620093145
+          },
+          "frequency": 2.9891835255860317,
+          "frequency_relative_error": 0.0005418327881410168,
+          "spectral_radius": 0.9998811612989341,
+          "design_condition": 8.784076845329368,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 40,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.012519965605372777,
+            "fluctuation_relative": 0.04945913734087861
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.009974201390500526,
+            "fluctuation_relative": 0.03966053207969749
+          },
+          "frequency": 2.9875150412278906,
+          "frequency_relative_error": 1.6643592912202188e-05,
+          "spectral_radius": 1.000003468728618,
+          "design_condition": 45.69597339550019,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 40,
+          "bias_norm": 0.004492598644217522,
+          "common_error": {
+            "total_relative": 0.009865962160653753,
+            "fluctuation_relative": 0.03897470591247335
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.0800000000000125,
+      "training_samples": 21,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 8,
+      "pod_native_error": {
+        "total_relative": 0.010376561294586443,
+        "fluctuation_relative": 0.041218332616465264
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.010641480790309936,
+            "fluctuation_relative": 0.042270660028342455
+          },
+          "frequency": 2.986667143994587,
+          "frequency_relative_error": 0.00030045241380383114,
+          "spectral_radius": 0.999993978685777,
+          "design_condition": 9.119591144206812,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 20,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.010706773513361838,
+            "fluctuation_relative": 0.04222974809589338
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.010392346123606129,
+            "fluctuation_relative": 0.0412810339598445
+          },
+          "frequency": 2.9874999538070837,
+          "frequency_relative_error": 2.1693666130140343e-05,
+          "spectral_radius": 1.0000066008036206,
+          "design_condition": 47.52968158967077,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 20,
+          "bias_norm": 0.0017214509425734319,
+          "common_error": {
+            "total_relative": 0.010474688454667137,
+            "fluctuation_relative": 0.0413143562130571
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.160000000000025,
+      "training_samples": 11,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 4,
+      "pod_native_error": {
+        "total_relative": 0.03346257589613874,
+        "fluctuation_relative": 0.12929212139571233
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.30654965276908824,
+            "fluctuation_relative": 1.1844412409448686
+          },
+          "frequency": 2.859094408422317,
+          "frequency_relative_error": 0.04300169761026651,
+          "spectral_radius": 1.00015608845599,
+          "design_condition": 51.35125836666517,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.30654965276908824,
+            "fluctuation_relative": 1.1844412409448686
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0345490218311595,
+            "fluctuation_relative": 0.13348991238934566
+          },
+          "frequency": 2.987066737850777,
+          "frequency_relative_error": 0.00016670004770757973,
+          "spectral_radius": 0.999179622566011,
+          "design_condition": 253.7973172506084,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.0367001855680192,
+          "common_error": {
+            "total_relative": 0.0345490218311595,
+            "fluctuation_relative": 0.13348991238934566
+          }
+        }
+      }
+    }
+  ],
+  "cadence_fixed_samples": [
+    {
+      "rank": 6,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 11,
+      "training_start": 28.7,
+      "training_end": 28.8,
+      "training_duration": 0.10000000000000142,
+      "observed_cycles": 0.2987564765039681,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.10835934527577937,
+        "fluctuation_relative": 0.32845985149906115
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.3645210735609639,
+            "fluctuation_relative": 1.1049396559696167
+          },
+          "frequency": 9.09390444418666,
+          "frequency_relative_error": 2.0439187630685565,
+          "spectral_radius": 1.0039561076971306,
+          "design_condition": 221.29458388932852,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.3193318448581592,
+            "fluctuation_relative": 1.0000116130268395
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.1647605474680833,
+            "fluctuation_relative": 0.49942369821947435
+          },
+          "frequency": 3.177392036260555,
+          "frequency_relative_error": 0.06353913175113979,
+          "spectral_radius": 1.009836801683061,
+          "design_condition": 2491.520845748797,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.042802776360291485,
+          "common_error": {
+            "total_relative": 0.1770464957645669,
+            "fluctuation_relative": 0.5544343749647501
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.020000000000003126,
+      "training_samples": 11,
+      "training_start": 28.6,
+      "training_end": 28.8,
+      "training_duration": 0.1999999999999993,
+      "observed_cycles": 0.5975129530079256,
+      "forecast_end": 29.44,
+      "forecast_points": 32,
+      "pod_native_error": {
+        "total_relative": 0.04870793632626631,
+        "fluctuation_relative": 0.1792312626473949
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.3768162888639481,
+            "fluctuation_relative": 1.3865760763666486
+          },
+          "frequency": 4.388215386888577,
+          "frequency_relative_error": 0.46882686468902524,
+          "spectral_radius": 0.9996221532290317,
+          "design_condition": 35.75133555158103,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.3192173194233342,
+            "fluctuation_relative": 1.197907570676373
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.08293343699460719,
+            "fluctuation_relative": 0.30517130778574764
+          },
+          "frequency": 3.021414899042252,
+          "frequency_relative_error": 0.011330343160665945,
+          "spectral_radius": 0.9971472404871555,
+          "design_condition": 228.5245851009358,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.04398562613287141,
+          "common_error": {
+            "total_relative": 0.07511874090692335,
+            "fluctuation_relative": 0.2818935657834569
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.04000000000000625,
+      "training_samples": 11,
+      "training_start": 28.4,
+      "training_end": 28.8,
+      "training_duration": 0.40000000000000213,
+      "observed_cycles": 1.195025906015862,
+      "forecast_end": 29.44,
+      "forecast_points": 16,
+      "pod_native_error": {
+        "total_relative": 0.011369283580188527,
+        "fluctuation_relative": 0.04396722740139687
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.08564441713939039,
+            "fluctuation_relative": 0.33120359233446334
+          },
+          "frequency": 2.9531679496058305,
+          "frequency_relative_error": 0.011513328794179878,
+          "spectral_radius": 0.999731845090811,
+          "design_condition": 9.463773817716833,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.08288540424083683,
+            "fluctuation_relative": 0.32253602431829503
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.011897353138036266,
+            "fluctuation_relative": 0.046009374927218516
+          },
+          "frequency": 2.9875186186754985,
+          "frequency_relative_error": 1.5446146868547395e-05,
+          "spectral_radius": 1.0000042145788743,
+          "design_condition": 48.21479810931368,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.04132519217794904,
+          "common_error": {
+            "total_relative": 0.01068492764497084,
+            "fluctuation_relative": 0.04157878114129522
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.0800000000000125,
+      "training_samples": 11,
+      "training_start": 28.0,
+      "training_end": 28.8,
+      "training_duration": 0.8000000000000007,
+      "observed_cycles": 2.390051812031713,
+      "forecast_end": 29.44,
+      "forecast_points": 8,
+      "pod_native_error": {
+        "total_relative": 0.02077825345131643,
+        "fluctuation_relative": 0.08195768457183321
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.14607834243959827,
+            "fluctuation_relative": 0.5761910037574558
+          },
+          "frequency": 2.900328991323053,
+          "frequency_relative_error": 0.02919962597544834,
+          "spectral_radius": 0.9931523738695076,
+          "design_condition": 16.513447737186734,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.14617150809818463,
+            "fluctuation_relative": 0.5758585034002826
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.02506010654265544,
+            "fluctuation_relative": 0.09884701388264966
+          },
+          "frequency": 2.986579540607236,
+          "frequency_relative_error": 0.0003297750877007122,
+          "spectral_radius": 0.9999802260535539,
+          "design_condition": 90.40410728420024,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.04509823176960214,
+          "common_error": {
+            "total_relative": 0.02415728557716004,
+            "fluctuation_relative": 0.09517024555382131
+          }
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "snapshot_interval": 0.160000000000025,
+      "training_samples": 11,
+      "training_start": 27.2,
+      "training_end": 28.8,
+      "training_duration": 1.6000000000000014,
+      "observed_cycles": 4.780103624063426,
+      "forecast_end": 29.44,
+      "forecast_points": 4,
+      "pod_native_error": {
+        "total_relative": 0.03346257589613874,
+        "fluctuation_relative": 0.12929212139571233
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.30654965276908824,
+            "fluctuation_relative": 1.1844412409448686
+          },
+          "frequency": 2.859094408422317,
+          "frequency_relative_error": 0.04300169761026651,
+          "spectral_radius": 1.00015608845599,
+          "design_condition": 51.35125836666517,
+          "effective_design_rank": 6,
+          "design_rows": 6,
+          "design_columns": 10,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.30654965276908824,
+            "fluctuation_relative": 1.1844412409448686
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0345490218311595,
+            "fluctuation_relative": 0.13348991238934566
+          },
+          "frequency": 2.987066737850777,
+          "frequency_relative_error": 0.00016670004770757973,
+          "spectral_radius": 0.999179622566011,
+          "design_condition": 253.7973172506084,
+          "effective_design_rank": 7,
+          "design_rows": 7,
+          "design_columns": 10,
+          "bias_norm": 0.0367001855680192,
+          "common_error": {
+            "total_relative": 0.0345490218311595,
+            "fluctuation_relative": 0.13348991238934566
+          }
+        }
+      }
+    }
+  ],
+  "phase_study": [
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.0,
+      "training_end": 28.2,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.4,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019155607276109814,
+        "fluctuation_relative": 0.007544597163743372
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029466829789256032,
+            "fluctuation_relative": 0.11605758942959409
+          },
+          "frequency": 2.988289877993567,
+          "frequency_relative_error": 0.00024271037147505226,
+          "spectral_radius": 0.9999728959230569,
+          "design_condition": 55.93784764157112,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019557781580523794,
+            "fluctuation_relative": 0.007702996898749236
+          },
+          "frequency": 2.9874855635508086,
+          "frequency_relative_error": 2.6510383894229328e-05,
+          "spectral_radius": 1.000044981481174,
+          "design_condition": 290.9747193991929,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004174171855741024
+        }
+      },
+      "requested_phase_fraction": 0.0,
+      "actual_phase_fraction": 0.0
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.0,
+      "training_end": 28.2,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.4,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 5.206787162235585e-05,
+        "fluctuation_relative": 0.00020507369508149443
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030233914942172868,
+            "fluctuation_relative": 0.11907881887203718
+          },
+          "frequency": 2.988788451471648,
+          "frequency_relative_error": 0.00040959327353462527,
+          "spectral_radius": 0.9999912148316985,
+          "design_condition": 5995.6721135865,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.00012433708435269022,
+            "fluctuation_relative": 0.0004897120725195481
+          },
+          "frequency": 2.9874815821621183,
+          "frequency_relative_error": 2.7843037410879568e-05,
+          "spectral_radius": 1.0000016113085766,
+          "design_condition": 31191.554394915485,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.004174428326872471
+        }
+      },
+      "requested_phase_fraction": 0.0,
+      "actual_phase_fraction": 0.0
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.04,
+      "training_end": 28.240000000000002,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.44,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019160512402996454,
+        "fluctuation_relative": 0.007544553742803028
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029558592765377884,
+            "fluctuation_relative": 0.11638853230519396
+          },
+          "frequency": 2.988295369798423,
+          "frequency_relative_error": 0.00024454859266453965,
+          "spectral_radius": 0.9999706484711091,
+          "design_condition": 55.43607711666042,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019429706804576397,
+            "fluctuation_relative": 0.007650550471244589
+          },
+          "frequency": 2.987490554476984,
+          "frequency_relative_error": 2.4839817205912773e-05,
+          "spectral_radius": 1.000088162691348,
+          "design_condition": 290.81521723960526,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004168223005986143
+        }
+      },
+      "requested_phase_fraction": 0.125,
+      "actual_phase_fraction": 0.11950259060160423
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.04,
+      "training_end": 28.240000000000002,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.44,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 4.881806861310651e-05,
+        "fluctuation_relative": 0.0001922237435643051
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.03026510324640555,
+            "fluctuation_relative": 0.11917045492910731
+          },
+          "frequency": 2.988769893682341,
+          "frequency_relative_error": 0.000403381595875274,
+          "spectral_radius": 1.0003398528684535,
+          "design_condition": 6297.283168705986,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0001169339371248579,
+            "fluctuation_relative": 0.00046043360137804757
+          },
+          "frequency": 2.987484577725245,
+          "frequency_relative_error": 2.6840360193070012e-05,
+          "spectral_radius": 1.0003507595636523,
+          "design_condition": 33037.13518149792,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.004168511394876954
+        }
+      },
+      "requested_phase_fraction": 0.125,
+      "actual_phase_fraction": 0.11950259060160423
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.08,
+      "training_end": 28.28,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.48,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019175313329859046,
+        "fluctuation_relative": 0.007550396184240299
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029389932410698146,
+            "fluctuation_relative": 0.11572464538729224
+          },
+          "frequency": 2.9883035279254138,
+          "frequency_relative_error": 0.0002472792872709739,
+          "spectral_radius": 0.9999782976874176,
+          "design_condition": 56.1631990801338,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.001939619805653691,
+            "fluctuation_relative": 0.007637370888057448
+          },
+          "frequency": 2.987498685409997,
+          "frequency_relative_error": 2.2118224988654234e-05,
+          "spectral_radius": 1.0000079433801214,
+          "design_condition": 290.9295019153515,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004224280696220638
+        }
+      },
+      "requested_phase_fraction": 0.25,
+      "actual_phase_fraction": 0.23900518120320846
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.08,
+      "training_end": 28.28,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.48,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 4.624274748241953e-05,
+        "fluctuation_relative": 0.0001820836291610233
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030072673296790926,
+            "fluctuation_relative": 0.11841297912792148
+          },
+          "frequency": 2.9887727256499335,
+          "frequency_relative_error": 0.0004043295142688308,
+          "spectral_radius": 1.0000447543599738,
+          "design_condition": 6962.938042678418,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.00010743493029636482,
+            "fluctuation_relative": 0.0004230315686683793
+          },
+          "frequency": 2.9874914005379427,
+          "frequency_relative_error": 2.4556623024363233e-05,
+          "spectral_radius": 1.0000510548145016,
+          "design_condition": 36069.13221660128,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.004224610608760647
+        }
+      },
+      "requested_phase_fraction": 0.25,
+      "actual_phase_fraction": 0.23900518120320846
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.13,
+      "training_end": 28.33,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.53,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019193095354631587,
+        "fluctuation_relative": 0.007558870689982189
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.02930697610342457,
+            "fluctuation_relative": 0.11542048772592922
+          },
+          "frequency": 2.9883092895096803,
+          "frequency_relative_error": 0.00024920780923443075,
+          "spectral_radius": 0.9999611023913346,
+          "design_condition": 56.47139967788374,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019275416322449218,
+            "fluctuation_relative": 0.007591291388119216
+          },
+          "frequency": 2.9875046857067526,
+          "frequency_relative_error": 2.010980099542703e-05,
+          "spectral_radius": 1.000001001775612,
+          "design_condition": 291.2326616306602,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004228235408068861
+        }
+      },
+      "requested_phase_fraction": 0.375,
+      "actual_phase_fraction": 0.38838341945521376
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.13,
+      "training_end": 28.33,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.53,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 4.258834459913028e-05,
+        "fluctuation_relative": 0.00016772687457499813
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030020353500220736,
+            "fluctuation_relative": 0.11823000197879156
+          },
+          "frequency": 2.9887959827501005,
+          "frequency_relative_error": 0.00041211414891129117,
+          "spectral_radius": 0.999991240992506,
+          "design_condition": 7683.941238427525,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 9.448697909497108e-05,
+            "fluctuation_relative": 0.0003721207255366372
+          },
+          "frequency": 2.9875009196651936,
+          "frequency_relative_error": 2.1370373352924688e-05,
+          "spectral_radius": 1.0000011578692225,
+          "design_condition": 39631.12881008053,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.004228430466062009
+        }
+      },
+      "requested_phase_fraction": 0.375,
+      "actual_phase_fraction": 0.38838341945521376
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.17,
+      "training_end": 28.37,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.57,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.001920092849915475,
+        "fluctuation_relative": 0.007561326106462841
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029506394858474557,
+            "fluctuation_relative": 0.11619619007529043
+          },
+          "frequency": 2.988319636946765,
+          "frequency_relative_error": 0.0002526713114170409,
+          "spectral_radius": 1.0000238343026977,
+          "design_condition": 55.97980972940123,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.001926383564572285,
+            "fluctuation_relative": 0.0075860989422998895
+          },
+          "frequency": 2.9875148644514553,
+          "frequency_relative_error": 1.670276365794976e-05,
+          "spectral_radius": 1.0000370413915345,
+          "design_condition": 291.5048049374739,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004175050233590282
+        }
+      },
+      "requested_phase_fraction": 0.5,
+      "actual_phase_fraction": 0.507886010056818
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.17,
+      "training_end": 28.37,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.57,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 3.984462326452635e-05,
+        "fluctuation_relative": 0.0001569081360338915
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030171198658716196,
+            "fluctuation_relative": 0.11881418760112054
+          },
+          "frequency": 2.98879260843969,
+          "frequency_relative_error": 0.00041098469710831864,
+          "spectral_radius": 0.9999911895440307,
+          "design_condition": 8090.915526872561,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 8.833441860659863e-05,
+            "fluctuation_relative": 0.00034786096179603715
+          },
+          "frequency": 2.9875046120986166,
+          "frequency_relative_error": 2.013443916792923e-05,
+          "spectral_radius": 1.000023318483765,
+          "design_condition": 42135.597869367484,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.0041751815620592325
+        }
+      },
+      "requested_phase_fraction": 0.5,
+      "actual_phase_fraction": 0.507886010056818
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.21,
+      "training_end": 28.41,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.61,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019200342378083949,
+        "fluctuation_relative": 0.007560194171634489
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029556215338422804,
+            "fluctuation_relative": 0.11637851166246582
+          },
+          "frequency": 2.9883210923931363,
+          "frequency_relative_error": 0.00025315847955775794,
+          "spectral_radius": 1.0002181540509587,
+          "design_condition": 55.65556616896177,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019372275218804793,
+            "fluctuation_relative": 0.007627893259220238
+          },
+          "frequency": 2.987516210319054,
+          "frequency_relative_error": 1.6252273809413964e-05,
+          "spectral_radius": 1.0002336676309924,
+          "design_condition": 291.8203859665497,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.00417211460201615
+        }
+      },
+      "requested_phase_fraction": 0.625,
+      "actual_phase_fraction": 0.6273886006584222
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.21,
+      "training_end": 28.41,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.61,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 3.774906045394864e-05,
+        "fluctuation_relative": 0.00014863809259691975
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030154877153452588,
+            "fluctuation_relative": 0.11873576106752563
+          },
+          "frequency": 2.9887672777950542,
+          "frequency_relative_error": 0.00040250600404956316,
+          "spectral_radius": 1.0013882997788202,
+          "design_condition": 8632.2350038544,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 8.535108641989414e-05,
+            "fluctuation_relative": 0.0003360725415141001
+          },
+          "frequency": 2.987507954395435,
+          "frequency_relative_error": 1.901570297935251e-05,
+          "spectral_radius": 1.001568117543454,
+          "design_condition": 45262.89954878599,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.0041722750045161865
+        }
+      },
+      "requested_phase_fraction": 0.625,
+      "actual_phase_fraction": 0.6273886006584222
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.25,
+      "training_end": 28.45,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.65,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.001918072891926985,
+        "fluctuation_relative": 0.007553695528154195
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.029376064853264265,
+            "fluctuation_relative": 0.11568791293116136
+          },
+          "frequency": 2.988322326485251,
+          "frequency_relative_error": 0.0002535715558293905,
+          "spectral_radius": 1.0002123566841916,
+          "design_condition": 56.35617207913853,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019568120731325985,
+            "fluctuation_relative": 0.007706256977236151
+          },
+          "frequency": 2.9875174912029245,
+          "frequency_relative_error": 1.582353536477843e-05,
+          "spectral_radius": 1.0002291813059596,
+          "design_condition": 291.70864706907605,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004224179702685442
+        }
+      },
+      "requested_phase_fraction": 0.75,
+      "actual_phase_fraction": 0.7468911912600265
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.25,
+      "training_end": 28.45,
+      "training_duration": 1.1999999999999993,
+      "observed_cycles": 3.585077718047564,
+      "forecast_end": 29.65,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 3.607456845659466e-05,
+        "fluctuation_relative": 0.0001420677533046771
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.02994834838051296,
+            "fluctuation_relative": 0.11794166227447846
+          },
+          "frequency": 2.9887538544611587,
+          "frequency_relative_error": 0.0003980129352958439,
+          "spectral_radius": 1.001566038033566,
+          "design_condition": 9593.753760386955,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 8.655656894981248e-05,
+            "fluctuation_relative": 0.00034087441127000597
+          },
+          "frequency": 2.987511799405664,
+          "frequency_relative_error": 1.7728698167296386e-05,
+          "spectral_radius": 1.0017466890522015,
+          "design_condition": 49659.29606620515,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.00422436853489693
+        }
+      },
+      "requested_phase_fraction": 0.75,
+      "actual_phase_fraction": 0.7468911912600265
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.29,
+      "training_end": 28.490000000000002,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.69,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 0.0019158603358811728,
+        "fluctuation_relative": 0.007546629486785482
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.02929813755930087,
+            "fluctuation_relative": 0.1154062144677286
+          },
+          "frequency": 2.9883258477264425,
+          "frequency_relative_error": 0.0002547501884175851,
+          "spectral_radius": 1.00005003728482,
+          "design_condition": 56.533840035073986,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019619515280597057,
+            "fluctuation_relative": 0.0077281840309561724
+          },
+          "frequency": 2.987521330764203,
+          "frequency_relative_error": 1.4538354429660671e-05,
+          "spectral_radius": 1.0000661064552665,
+          "design_condition": 291.3194759230231,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 120,
+          "bias_norm": 0.004228434316125945
+        }
+      },
+      "requested_phase_fraction": 0.875,
+      "actual_phase_fraction": 0.8663937818616306
+    },
+    {
+      "rank": 20,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 121,
+      "training_start": 27.29,
+      "training_end": 28.490000000000002,
+      "training_duration": 1.2000000000000028,
+      "observed_cycles": 3.585077718047575,
+      "forecast_end": 29.69,
+      "forecast_points": 120,
+      "pod_native_error": {
+        "total_relative": 3.414201322829496e-05,
+        "fluctuation_relative": 0.00013448638136159593
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.030021276907812464,
+            "fluctuation_relative": 0.11825468135663803
+          },
+          "frequency": 2.988831930472211,
+          "frequency_relative_error": 0.00042414659839362656,
+          "spectral_radius": 1.0002491436962442,
+          "design_condition": 10479.98424095767,
+          "effective_design_rank": 20,
+          "design_rows": 20,
+          "design_columns": 120,
+          "bias_norm": 0.0
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 8.11565417242124e-05,
+            "fluctuation_relative": 0.00031967797409396546
+          },
+          "frequency": 2.98751730526852,
+          "frequency_relative_error": 1.5885771473045374e-05,
+          "spectral_radius": 1.0003830027932257,
+          "design_condition": 54007.29006275797,
+          "effective_design_rank": 21,
+          "design_rows": 21,
+          "design_columns": 120,
+          "bias_norm": 0.0042286144680494615
+        }
+      },
+      "requested_phase_fraction": 0.875,
+      "actual_phase_fraction": 0.8663937818616306
+    }
+  ],
+  "window_study": [
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 34,
+      "training_start": 28.47,
+      "training_end": 28.8,
+      "training_duration": 0.33000000000000185,
+      "observed_cycles": 0.9858963724630863,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0018979635421090904,
+        "fluctuation_relative": 0.007536230778576915
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.006026469096725535,
+            "fluctuation_relative": 0.023929259379986103
+          },
+          "frequency": 2.985968888828488,
+          "frequency_relative_error": 0.0005341729256636008,
+          "spectral_radius": 0.9999966446859021,
+          "design_condition": 55.5164154365986,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 33,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.005875404041873686,
+            "fluctuation_relative": 0.023177597456205165
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019090999881363811,
+            "fluctuation_relative": 0.007580450188198223
+          },
+          "frequency": 2.9875534705457487,
+          "frequency_relative_error": 3.7805017726322276e-06,
+          "spectral_radius": 1.0000603024844803,
+          "design_condition": 291.5502934297338,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 33,
+          "bias_norm": 0.0008810866785150793,
+          "common_error": {
+            "total_relative": 0.0019166091768588586,
+            "fluctuation_relative": 0.007560738915231591
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 51,
+      "training_start": 28.3,
+      "training_end": 28.8,
+      "training_duration": 0.5,
+      "observed_cycles": 1.4937823825198193,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0019651496017433785,
+        "fluctuation_relative": 0.00764110986002001
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.07291502334572107,
+            "fluctuation_relative": 0.28351617776901183
+          },
+          "frequency": 2.989154342088051,
+          "frequency_relative_error": 0.000532064465016191,
+          "spectral_radius": 0.9999719582333937,
+          "design_condition": 58.02800892854312,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 50,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.07143845269315086,
+            "fluctuation_relative": 0.2797931009217746
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0021101139515113886,
+            "fluctuation_relative": 0.008204776117988893
+          },
+          "frequency": 2.9875533375165237,
+          "frequency_relative_error": 3.82502941809193e-06,
+          "spectral_radius": 1.0003225100137418,
+          "design_condition": 302.5695895233549,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 50,
+          "bias_norm": 0.010678798633287075,
+          "common_error": {
+            "total_relative": 0.0020815516508509487,
+            "fluctuation_relative": 0.008152525274056837
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 68,
+      "training_start": 28.13,
+      "training_end": 28.8,
+      "training_duration": 0.6700000000000017,
+      "observed_cycles": 2.001668392576563,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0018991249967450408,
+        "fluctuation_relative": 0.007540790083927828
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.005975123296045834,
+            "fluctuation_relative": 0.023725215864302346
+          },
+          "frequency": 2.986874665940471,
+          "frequency_relative_error": 0.0002309905067977569,
+          "spectral_radius": 0.999995910777848,
+          "design_condition": 55.62219977271379,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 67,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.005855175921125325,
+            "fluctuation_relative": 0.023099646238615126
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019091690577423023,
+            "fluctuation_relative": 0.0075806716902993565
+          },
+          "frequency": 2.9875467002228566,
+          "frequency_relative_error": 6.046669512760339e-06,
+          "spectral_radius": 1.0000002276362563,
+          "design_condition": 289.72386700345925,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 67,
+          "bias_norm": 0.0008780047462130133,
+          "common_error": {
+            "total_relative": 0.001909195237921177,
+            "fluctuation_relative": 0.007532093858582437
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 84,
+      "training_start": 27.97,
+      "training_end": 28.8,
+      "training_duration": 0.8300000000000018,
+      "observed_cycles": 2.479678754982906,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0019209976153174437,
+        "fluctuation_relative": 0.007566733202901775
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.044668761296959555,
+            "fluctuation_relative": 0.1759484741381857
+          },
+          "frequency": 2.9878025198069063,
+          "frequency_relative_error": 7.958146047570835e-05,
+          "spectral_radius": 0.9999933952837922,
+          "design_condition": 56.08042489627437,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 83,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.043881356411335413,
+            "fluctuation_relative": 0.17313749236473983
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019666977430025717,
+            "fluctuation_relative": 0.007746744188222424
+          },
+          "frequency": 2.9875450834109776,
+          "frequency_relative_error": 6.587850041372967e-06,
+          "spectral_radius": 1.0001739039721884,
+          "design_condition": 293.2676727171321,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 83,
+          "bias_norm": 0.006496582503154239,
+          "common_error": {
+            "total_relative": 0.0019498062275532166,
+            "fluctuation_relative": 0.007693120460344579
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 101,
+      "training_start": 27.8,
+      "training_end": 28.8,
+      "training_duration": 1.0,
+      "observed_cycles": 2.9875647650396386,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0018945028898711411,
+        "fluctuation_relative": 0.007526581180212902
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.0028366258376949145,
+            "fluctuation_relative": 0.0112694970060206
+          },
+          "frequency": 2.9873628075104683,
+          "frequency_relative_error": 6.759938111922104e-05,
+          "spectral_radius": 1.000000565117703,
+          "design_condition": 55.43855804541655,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 100,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.002804746160921372,
+            "fluctuation_relative": 0.011066045103334003
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019037329802559554,
+            "fluctuation_relative": 0.0075632509709814616
+          },
+          "frequency": 2.9875405860253568,
+          "frequency_relative_error": 8.093218451632467e-06,
+          "spectral_radius": 1.0000098947038683,
+          "design_condition": 289.5397762885331,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 100,
+          "bias_norm": 0.0003275266717402716,
+          "common_error": {
+            "total_relative": 0.001902722334048772,
+            "fluctuation_relative": 0.007507136104176998
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 118,
+      "training_start": 27.63,
+      "training_end": 28.8,
+      "training_duration": 1.1700000000000017,
+      "observed_cycles": 3.495450775096382,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0019086158963829902,
+        "fluctuation_relative": 0.007550196795866361
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.03181082993229197,
+            "fluctuation_relative": 0.12583884828990521
+          },
+          "frequency": 2.987766150708959,
+          "frequency_relative_error": 6.740796774584723e-05,
+          "spectral_radius": 1.000012614019743,
+          "design_condition": 55.974899258352146,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 117,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.03128491921198039,
+            "fluctuation_relative": 0.12365496337526319
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019366137443747086,
+            "fluctuation_relative": 0.007660952062339217
+          },
+          "frequency": 2.987536148536629,
+          "frequency_relative_error": 9.578538127219538e-06,
+          "spectral_radius": 1.0001304209297615,
+          "design_condition": 291.8181109988336,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 117,
+          "bias_norm": 0.004613681188124819,
+          "common_error": {
+            "total_relative": 0.0019134265649339308,
+            "fluctuation_relative": 0.007562899242442484
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 135,
+      "training_start": 27.46,
+      "training_end": 28.8,
+      "training_duration": 1.3399999999999999,
+      "observed_cycles": 4.003336785153115,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0018962555100617549,
+        "fluctuation_relative": 0.0075325537097483825
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.003548591598039486,
+            "fluctuation_relative": 0.014096178845288503
+          },
+          "frequency": 2.9873480232994067,
+          "frequency_relative_error": 7.254796373556971e-05,
+          "spectral_radius": 0.9999992288107665,
+          "design_condition": 55.611404623315465,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 134,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.00349724153212008,
+            "fluctuation_relative": 0.013798458158910093
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019057746133525082,
+            "fluctuation_relative": 0.007570366734641798
+          },
+          "frequency": 2.9875272340580032,
+          "frequency_relative_error": 1.2562399340998454e-05,
+          "spectral_radius": 1.0000004206268203,
+          "design_condition": 289.7168682056447,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 134,
+          "bias_norm": 0.0004649573308376451,
+          "common_error": {
+            "total_relative": 0.0019021346522812505,
+            "fluctuation_relative": 0.007504922142510642
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 151,
+      "training_start": 27.3,
+      "training_end": 28.8,
+      "training_duration": 1.5,
+      "observed_cycles": 4.4813471475594575,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0019037230162304141,
+        "fluctuation_relative": 0.007542113756030844
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.024969866183585522,
+            "fluctuation_relative": 0.09892488015529463
+          },
+          "frequency": 2.987588946577071,
+          "frequency_relative_error": 8.094063002506147e-06,
+          "spectral_radius": 1.0000071436948927,
+          "design_condition": 55.663078803349904,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 150,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.024570072478701167,
+            "fluctuation_relative": 0.0971245736572639
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019246696829453066,
+            "fluctuation_relative": 0.007625099643067187
+          },
+          "frequency": 2.9875196398223967,
+          "frequency_relative_error": 1.5104347785177552e-05,
+          "spectral_radius": 1.0000940443577613,
+          "design_condition": 290.647640980339,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 150,
+          "bias_norm": 0.0036134032143341,
+          "common_error": {
+            "total_relative": 0.0019108974170783308,
+            "fluctuation_relative": 0.007553705716472135
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 168,
+      "training_start": 27.13,
+      "training_end": 28.8,
+      "training_duration": 1.6700000000000017,
+      "observed_cycles": 4.9892331576162015,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.0018945608632789383,
+        "fluctuation_relative": 0.007527554149990933
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.002348948597476862,
+            "fluctuation_relative": 0.009332947864472495
+          },
+          "frequency": 2.98744113054622,
+          "frequency_relative_error": 4.138303372214214e-05,
+          "spectral_radius": 1.0000005455043923,
+          "design_condition": 55.494867907713896,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 167,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.0023321779693061162,
+            "fluctuation_relative": 0.009201734393901375
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.0019038488660826024,
+            "fluctuation_relative": 0.007564457659086358
+          },
+          "frequency": 2.9875098310718613,
+          "frequency_relative_error": 1.8387540387521106e-05,
+          "spectral_radius": 1.0000014177033116,
+          "design_condition": 289.55550461445705,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 167,
+          "bias_norm": 0.00021503633241995435,
+          "common_error": {
+            "total_relative": 0.0019007480941358363,
+            "fluctuation_relative": 0.007499504472703683
+          }
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "snapshot_interval": 0.010000000000001563,
+      "training_samples": 180,
+      "training_start": 27.01,
+      "training_end": 28.8,
+      "training_duration": 1.7899999999999991,
+      "observed_cycles": 5.347740929420951,
+      "forecast_end": 29.44,
+      "forecast_points": 64,
+      "pod_native_error": {
+        "total_relative": 0.001902176908316384,
+        "fluctuation_relative": 0.007537242419246109
+      },
+      "models": {
+        "linear": {
+          "native_error": {
+            "total_relative": 0.019542001152842287,
+            "fluctuation_relative": 0.07743380723537859
+          },
+          "frequency": 2.9871622540371243,
+          "frequency_relative_error": 0.00013472879558107387,
+          "spectral_radius": 1.0000646161744775,
+          "design_condition": 55.4146168650025,
+          "effective_design_rank": 10,
+          "design_rows": 10,
+          "design_columns": 179,
+          "bias_norm": 0.0,
+          "common_error": {
+            "total_relative": 0.019198780540022876,
+            "fluctuation_relative": 0.07582570471233603
+          }
+        },
+        "affine": {
+          "native_error": {
+            "total_relative": 0.001921246324047321,
+            "fluctuation_relative": 0.007612803639934397
+          },
+          "frequency": 2.9875007791695087,
+          "frequency_relative_error": 2.141740017780336e-05,
+          "spectral_radius": 1.000070102136392,
+          "design_condition": 289.6636844919634,
+          "effective_design_rank": 11,
+          "design_rows": 11,
+          "design_columns": 179,
+          "bias_norm": 0.0028118452289296668,
+          "common_error": {
+            "total_relative": 0.0018847324906138565,
+            "fluctuation_relative": 0.007443762847182462
+          }
+        }
+      }
+    }
+  ],
+  "runtime_seconds": 15.996874595999543,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  }
+}

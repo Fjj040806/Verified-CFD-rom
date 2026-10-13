@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "numerical_tests": {
+    "count": 16,
+    "status": "passed",
+    "observed_run_seconds": 7.265
+  },
+  "demo": "Passed; reproduces stored POD/DMD errors",
+  "lightweight_phase5": "Passed; metrics match",
+  "lightweight_spatial_plot": "Passed",
+  "lightweight_phase6": "Passed; controlled cadence metrics match",
+  "pdf": "LaTeX academic manuscript; numbered equations, citations and integrated figures. Visually reviewed before delivery.",
+  "english_text": "No Chinese text in Python or Markdown deliverables",
+  "scope": "Completed single-Re computational study; future research explicitly deferred",
+  "repository": "Prepared package only; not published",
+  "repository_name": "verified-cfd-rom",
+  "pdf_pages": 14,
+  "manuscript_checks": "No unresolved references; equations, citations, tables and all ten rendered pages reviewed.",
+  "publication_checks": {
+    "core_tests_passed": 13,
+    "demo": "Reproduces recorded POD/DMD test errors",
+    "paper": "14 pages; 6 figures; no unresolved references or overfull boxes; visual review passed",
+    "readme_images": "All embedded paths validated locally; remote verification follows push",
+    "repository": "https://github.com/Fjj040806/Verified-CFD-rom"
+  }
+}

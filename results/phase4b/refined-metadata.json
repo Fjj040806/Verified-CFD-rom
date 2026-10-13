@@ -1,0 +1,19 @@
+{
+  "dt": 0.01,
+  "start": 25.0,
+  "end": 33.0,
+  "h": 0.065,
+  "hcircle": 0.006,
+  "nu": 0.001,
+  "umax": 1.5,
+  "triangles": 3087,
+  "velocity_dofs": 12658,
+  "pressure_dofs": 1621,
+  "elapsed_seconds": 424.3997353750001,
+  "nonlinear_tolerance": 1e-06,
+  "transfer": true,
+  "snapshot_dtype": "float64",
+  "snapshot_dt": 0.02,
+  "scheme": "fully implicit BDF2 with backward-Euler startup",
+  "initial": "restart checkpoint with BE re-start"
+}

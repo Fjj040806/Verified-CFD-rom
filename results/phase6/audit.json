@@ -1,0 +1,10 @@
+{
+  "data_configurations": 36,
+  "model_fits": 72,
+  "all_finite_errors": true,
+  "all_designs_full_row_rank_at_rcond": true,
+  "fixed_rank_cadence_verified": true,
+  "fixed_count_verified": true,
+  "fixed_training_endpoints_verified": true,
+  "notes": "Protocol and algebra checks; not independent experimental replication."
+}

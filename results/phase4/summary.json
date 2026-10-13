@@ -1,0 +1,99 @@
+{
+  "reference": {
+    "cd": 5.57953523384,
+    "cl": 0.010618948146,
+    "pressure_difference": 0.11752016697
+  },
+  "results": [
+    {
+      "h": 0.065,
+      "hcircle": 0.009,
+      "triangles": 1970,
+      "velocity_dofs": 8152,
+      "pressure_dofs": 1053,
+      "cylinder_facets": 35,
+      "perimeter": 0.3137375811620173,
+      "cd": 5.561883360736817,
+      "cl": 0.010934955636003437,
+      "pressure_difference": 0.11580754660350104,
+      "free_momentum_residual": 2.0782946410076264e-10,
+      "weak_divergence": 9.980756229440322e-17,
+      "divergence_l2": 0.032989969543085966,
+      "boundary_max_error": 0.0,
+      "picard_iterations": 31,
+      "seconds": 12.947481182000047,
+      "name": "coarse",
+      "cd_relative_error": 0.00316368162640564,
+      "cl_relative_error": 0.029758831633665387,
+      "pressure_difference_relative_error": 0.014572991263160456,
+      "surface_cd": 5.498523389717646,
+      "surface_cl": 0.011536057230519696,
+      "boundary_fluxes": {
+        "cylinder": -2.803920992563891e-19,
+        "inlet": -0.082,
+        "outlet": 0.08200000000000009,
+        "walls": 0.0
+      }
+    },
+    {
+      "h": 0.045,
+      "hcircle": 0.006,
+      "triangles": 4157,
+      "velocity_dofs": 17022,
+      "pressure_dofs": 2177,
+      "cylinder_facets": 53,
+      "perimeter": 0.31397532783668575,
+      "cd": 5.571859624079721,
+      "cl": 0.010547710599854623,
+      "pressure_difference": 0.11676203011286074,
+      "free_momentum_residual": 1.835267053006559e-10,
+      "weak_divergence": 1.6374889057061398e-16,
+      "divergence_l2": 0.01743835777307978,
+      "boundary_max_error": 0.0,
+      "picard_iterations": 31,
+      "seconds": 41.6478511790001,
+      "name": "medium",
+      "cd_relative_error": 0.0013756718863832697,
+      "cl_relative_error": 0.00670853131269987,
+      "pressure_difference_relative_error": 0.006451121341010368,
+      "surface_cd": 5.543520232111559,
+      "surface_cl": 0.011631739157827788,
+      "boundary_fluxes": {
+        "cylinder": 2.4791551083714226e-19,
+        "inlet": -0.082,
+        "outlet": 0.08199999999999999,
+        "walls": 0.0
+      }
+    },
+    {
+      "h": 0.032,
+      "hcircle": 0.004,
+      "triangles": 8700,
+      "velocity_dofs": 35360,
+      "pressure_dofs": 4490,
+      "cylinder_facets": 79,
+      "perimeter": 0.3140764692657125,
+      "cd": 5.576154350405209,
+      "cl": 0.01058118834653962,
+      "pressure_difference": 0.11716646421642977,
+      "free_momentum_residual": 1.5584473430197237e-10,
+      "weak_divergence": 1.548384640736508e-16,
+      "divergence_l2": 0.0089225548430128,
+      "boundary_max_error": 0.0,
+      "picard_iterations": 31,
+      "seconds": 114.15675964899992,
+      "name": "fine",
+      "cd_relative_error": 0.0006059435585756154,
+      "cl_relative_error": 0.003555888864058862,
+      "pressure_difference_relative_error": 0.0030097196310189295,
+      "surface_cd": 5.560159974679529,
+      "surface_cl": 0.010347794185527306,
+      "boundary_fluxes": {
+        "cylinder": -7.107121216121897e-20,
+        "inlet": -0.082,
+        "outlet": 0.08199999999999998,
+        "walls": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: Core numerical checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Verify MAC, flow, cavity, and ROM contracts
+        env:
+          PYTHONPATH: src:tests
+          OPENBLAS_NUM_THREADS: '1'
+        run: python -m unittest test_mac test_flow test_cavity test_rom -v
+      - name: Reproduce the stored-data demonstration
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+        run: python scripts/demo.py

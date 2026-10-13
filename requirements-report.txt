@@ -1,0 +1,1 @@
+# PDF authoring uses pdflatex and standard LaTeX packages; no extra Python dependency.

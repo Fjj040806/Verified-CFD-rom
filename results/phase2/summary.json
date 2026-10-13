@@ -1,0 +1,150 @@
+{
+  "nu": 0.1,
+  "spatial": [
+    {
+      "n": 16,
+      "dt": 0.0005,
+      "T": 0.02,
+      "velocity_rms": 2.5565981484406606e-05,
+      "pressure_rms": 0.00521179788403845,
+      "semidiscrete_velocity_rms": 9.706883820119568e-08,
+      "max_divergence": 1.3293574339703353e-16,
+      "max_cfl": 0.002497549207807116,
+      "dt_halving_error_change": 4.853282271253967e-08,
+      "temporal_change_fraction": 0.0018983359876929102,
+      "order": null
+    },
+    {
+      "n": 32,
+      "dt": 0.000125,
+      "T": 0.02,
+      "velocity_rms": 6.416435683551493e-06,
+      "pressure_rms": 0.0013153255005120552,
+      "semidiscrete_velocity_rms": 2.4740574191179958e-08,
+      "max_divergence": 2.3467677491846244e-16,
+      "max_cfl": 0.0012671085483154953,
+      "dt_halving_error_change": 1.2370187572548997e-08,
+      "temporal_change_fraction": 0.0019278908388749103,
+      "order": 1.9943814015840442
+    },
+    {
+      "n": 64,
+      "dt": 3.125e-05,
+      "T": 0.02,
+      "velocity_rms": 1.605672009823829e-06,
+      "pressure_rms": 0.0003296083127596021,
+      "semidiscrete_velocity_rms": 6.215149640878056e-09,
+      "max_divergence": 4.525307228480641e-16,
+      "max_cfl": 0.0006358529359711115,
+      "dt_halving_error_change": 3.1075772155030534e-09,
+      "temporal_change_fraction": 0.0019353748439844885,
+      "order": 1.9985948817795913
+    },
+    {
+      "n": 128,
+      "dt": 7.8125e-06,
+      "T": 0.02,
+      "velocity_rms": 4.015157654563387e-07,
+      "pressure_rms": 8.245069052711437e-05,
+      "semidiscrete_velocity_rms": 1.555671743521998e-09,
+      "max_divergence": 8.878302608551436e-16,
+      "max_cfl": 0.0003182140171972588,
+      "dt_halving_error_change": 7.776845227941884e-10,
+      "temporal_change_fraction": 0.0019368716989489041,
+      "order": 1.9996486828623576
+    }
+  ],
+  "temporal": [
+    {
+      "n": 64,
+      "dt": 0.02,
+      "T": 0.5,
+      "velocity_rms": 0.00012644233804031245,
+      "pressure_rms": 0.0015244893877301574,
+      "semidiscrete_velocity_rms": 9.011471289537426e-05,
+      "max_divergence": 4.448365170053996e-16,
+      "max_cfl": 0.40694587902151136,
+      "order": null
+    },
+    {
+      "n": 64,
+      "dt": 0.01,
+      "T": 0.5,
+      "velocity_rms": 8.144265683110335e-05,
+      "pressure_rms": 0.0006603813028281672,
+      "semidiscrete_velocity_rms": 4.5115031686165164e-05,
+      "max_divergence": 4.4129856222928316e-16,
+      "max_cfl": 0.20347293951075568,
+      "order": 0.9981544729245129
+    },
+    {
+      "n": 64,
+      "dt": 0.005,
+      "T": 0.5,
+      "velocity_rms": 5.889959123739198e-05,
+      "pressure_rms": 0.0002492419025584573,
+      "semidiscrete_velocity_rms": 2.2571966092453792e-05,
+      "max_divergence": 4.483730709398404e-16,
+      "max_cfl": 0.10173646975537784,
+      "order": 0.9990761115383646
+    },
+    {
+      "n": 64,
+      "dt": 0.0025,
+      "T": 0.5,
+      "velocity_rms": 4.7617224692903e-05,
+      "pressure_rms": 0.00012335561640122207,
+      "semidiscrete_velocity_rms": 1.1289599547964809e-05,
+      "max_divergence": 4.509752530298671e-16,
+      "max_cfl": 0.05086823487768892,
+      "order": 0.9995377741287059
+    }
+  ],
+  "translated": [
+    {
+      "n": 32,
+      "dt": 0.002,
+      "T": 0.2,
+      "velocity_rms": 0.00023569969443115212,
+      "pressure_rms": 0.00108611090445003,
+      "semidiscrete_velocity_rms": null,
+      "max_divergence": 3.020310582982046e-16,
+      "max_cfl": 0.025366694951988577
+    },
+    {
+      "n": 64,
+      "dt": 0.001,
+      "T": 0.2,
+      "velocity_rms": 6.0686898364020464e-05,
+      "pressure_rms": 0.0002645856569659753,
+      "semidiscrete_velocity_rms": null,
+      "max_divergence": 5.818143661242178e-16,
+      "max_cfl": 0.02544025213001622
+    },
+    {
+      "n": 128,
+      "dt": 0.0005,
+      "T": 0.2,
+      "velocity_rms": 1.627380699960009e-05,
+      "pressure_rms": 7.821019899803995e-05,
+      "semidiscrete_velocity_rms": null,
+      "max_divergence": 1.1346559207944357e-15,
+      "max_cfl": 0.025458655279565215
+    }
+  ],
+  "trajectory": {
+    "n": 64,
+    "dt": 0.005,
+    "T": 2.0,
+    "velocity_rms": 0.00017456964818988557,
+    "pressure_rms": 0.0002175301530865916,
+    "semidiscrete_velocity_rms": 6.690801529822231e-05,
+    "max_divergence": 4.483730709398404e-16,
+    "max_cfl": 0.10173646975537784
+  },
+  "elapsed_seconds": 69.96818982699995,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+}

@@ -1,0 +1,484 @@
+{
+  "samples": 301,
+  "dt": 0.010000000000001563,
+  "training": [
+    27.0,
+    28.79
+  ],
+  "validation": [
+    28.8,
+    29.39
+  ],
+  "test": [
+    29.4,
+    30.0
+  ],
+  "pod_rank": 10,
+  "dmd_rank": 20,
+  "selected_pod": {
+    "rank": 10,
+    "training_energy_fraction": 0.9999433986942169,
+    "pod_validation": {
+      "total_relative": 0.0019097998919223602,
+      "fluctuation_relative": 0.0075406426644033
+    },
+    "pod_test": {
+      "total_relative": 0.0019098736756398699,
+      "fluctuation_relative": 0.007544305915070315
+    },
+    "dmd_validation": {
+      "total_relative": 0.0019267088260846502,
+      "fluctuation_relative": 0.007607405800631885
+    },
+    "dmd_test": {
+      "total_relative": 0.0019381037896348723,
+      "fluctuation_relative": 0.007655819372065973
+    },
+    "dmd_frequency": 2.9875022820746215,
+    "linear_dmd_validation": {
+      "total_relative": 0.019972526107509717,
+      "fluctuation_relative": 0.07885940465239023
+    },
+    "linear_dmd_test": {
+      "total_relative": 0.01909854500651313,
+      "fluctuation_relative": 0.0754423017080438
+    }
+  },
+  "selected_dmd": {
+    "rank": 20,
+    "training_energy_fraction": 0.9999999783152391,
+    "pod_validation": {
+      "total_relative": 3.853950157413303e-05,
+      "fluctuation_relative": 0.00015216914141838271
+    },
+    "pod_test": {
+      "total_relative": 4.0849596413173326e-05,
+      "fluctuation_relative": 0.00016136242714842787
+    },
+    "dmd_validation": {
+      "total_relative": 6.910833343712481e-05,
+      "fluctuation_relative": 0.0002728669374136596
+    },
+    "dmd_test": {
+      "total_relative": 0.00010968020684444087,
+      "fluctuation_relative": 0.00043325432661687666
+    },
+    "dmd_frequency": 2.987504639660978,
+    "linear_dmd_validation": {
+      "total_relative": 0.02005548850317211,
+      "fluctuation_relative": 0.07918697288763778
+    },
+    "linear_dmd_test": {
+      "total_relative": 0.01917076937503806,
+      "fluctuation_relative": 0.07572759949376896
+    }
+  },
+  "force_frequency": 2.9875647650396386,
+  "dmd_frequency_relative_error": 2.0125213472943493e-05,
+  "mean_baseline": {
+    "total_relative": 0.2531543255456747,
+    "fluctuation_relative": 1.0
+  },
+  "persistence_baseline": {
+    "total_relative": 0.35422653815887734,
+    "fluctuation_relative": 1.399251375204991
+  },
+  "mass_orthogonality_max_error": 6.6082853946913475e-06,
+  "reconstructed_weak_divergence_max": 3.279154461421895e-16,
+  "rank_study": [
+    {
+      "rank": 1,
+      "training_energy_fraction": 0.4822339330906072,
+      "pod_validation": {
+        "total_relative": 0.18857634969523757,
+        "fluctuation_relative": 0.7445737503828245
+      },
+      "pod_test": {
+        "total_relative": 0.17670246702005674,
+        "fluctuation_relative": 0.698002953886623
+      },
+      "dmd_validation": {
+        "total_relative": 0.33407428347691037,
+        "fluctuation_relative": 1.319056936656463
+      },
+      "dmd_test": {
+        "total_relative": 0.29766079412062074,
+        "fluctuation_relative": 1.1758076559782742
+      },
+      "dmd_frequency": null,
+      "linear_dmd_validation": {
+        "total_relative": 0.3117161452371565,
+        "fluctuation_relative": 1.2307781950875696
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.2612947042565964,
+        "fluctuation_relative": 1.0321557954554996
+      }
+    },
+    {
+      "rank": 2,
+      "training_energy_fraction": 0.9541378698987961,
+      "pod_validation": {
+        "total_relative": 0.054202674990077984,
+        "fluctuation_relative": 0.21401352324067663
+      },
+      "pod_test": {
+        "total_relative": 0.05415824785995769,
+        "fluctuation_relative": 0.2139337249846293
+      },
+      "dmd_validation": {
+        "total_relative": 0.05421767580069739,
+        "fluctuation_relative": 0.2140727523531275
+      },
+      "dmd_test": {
+        "total_relative": 0.054177928596054505,
+        "fluctuation_relative": 0.21401146703408624
+      },
+      "dmd_frequency": 2.9879283110684294,
+      "linear_dmd_validation": {
+        "total_relative": 0.057868092851404394,
+        "fluctuation_relative": 0.22848603757314026
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.05754714904469319,
+        "fluctuation_relative": 0.22732042567572244
+      }
+    },
+    {
+      "rank": 3,
+      "training_energy_fraction": 0.969916442005073,
+      "pod_validation": {
+        "total_relative": 0.044048083556516,
+        "fluctuation_relative": 0.17391919412935491
+      },
+      "pod_test": {
+        "total_relative": 0.044284832458235834,
+        "fluctuation_relative": 0.17493215793480826
+      },
+      "dmd_validation": {
+        "total_relative": 0.05733458623763241,
+        "fluctuation_relative": 0.22637954319612938
+      },
+      "dmd_test": {
+        "total_relative": 0.054260477616238284,
+        "fluctuation_relative": 0.21433754884211323
+      },
+      "dmd_frequency": 2.9880989620946865,
+      "linear_dmd_validation": {
+        "total_relative": 0.06042658492529539,
+        "fluctuation_relative": 0.23858797263477677
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.057945495197793434,
+        "fluctuation_relative": 0.22889395657329492
+      }
+    },
+    {
+      "rank": 4,
+      "training_energy_fraction": 0.9854515190359644,
+      "pod_validation": {
+        "total_relative": 0.03074194540250075,
+        "fluctuation_relative": 0.1213813164768354
+      },
+      "pod_test": {
+        "total_relative": 0.03066677350128397,
+        "fluctuation_relative": 0.12113865103897266
+      },
+      "dmd_validation": {
+        "total_relative": 0.03091765831286881,
+        "fluctuation_relative": 0.12207510029901068
+      },
+      "dmd_test": {
+        "total_relative": 0.031004353006349603,
+        "fluctuation_relative": 0.1224721439758916
+      },
+      "dmd_frequency": 2.9874580653026506,
+      "linear_dmd_validation": {
+        "total_relative": 0.036816911613601164,
+        "fluctuation_relative": 0.14536767734636177
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.0364307993258614,
+        "fluctuation_relative": 0.14390747322738703
+      }
+    },
+    {
+      "rank": 6,
+      "training_energy_fraction": 0.9984620282791111,
+      "pod_validation": {
+        "total_relative": 0.00992301703989363,
+        "fluctuation_relative": 0.03917998213692682
+      },
+      "pod_test": {
+        "total_relative": 0.009921614111949998,
+        "fluctuation_relative": 0.039191959649766746
+      },
+      "dmd_validation": {
+        "total_relative": 0.009932148438719366,
+        "fluctuation_relative": 0.03921603649836137
+      },
+      "dmd_test": {
+        "total_relative": 0.009935809962315101,
+        "fluctuation_relative": 0.03924803552496463
+      },
+      "dmd_frequency": 2.98750646116759,
+      "linear_dmd_validation": {
+        "total_relative": 0.022227411929388343,
+        "fluctuation_relative": 0.08776258257366498
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.02144809419885837,
+        "fluctuation_relative": 0.0847233961048343
+      }
+    },
+    {
+      "rank": 8,
+      "training_energy_fraction": 0.9996270981275401,
+      "pod_validation": {
+        "total_relative": 0.004908020045038664,
+        "fluctuation_relative": 0.019378797488627
+      },
+      "pod_test": {
+        "total_relative": 0.004912110620218622,
+        "fluctuation_relative": 0.01940362112964318
+      },
+      "dmd_validation": {
+        "total_relative": 0.0049634696374108575,
+        "fluctuation_relative": 0.019597734333127847
+      },
+      "dmd_test": {
+        "total_relative": 0.0050179743352267905,
+        "fluctuation_relative": 0.019821799704233912
+      },
+      "dmd_frequency": 2.9875017332973997,
+      "linear_dmd_validation": {
+        "total_relative": 0.02049389686278286,
+        "fluctuation_relative": 0.08091798187705827
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.01965963379361471,
+        "fluctuation_relative": 0.07765869199050154
+      }
+    },
+    {
+      "rank": 10,
+      "training_energy_fraction": 0.9999433986942169,
+      "pod_validation": {
+        "total_relative": 0.0019097998919223602,
+        "fluctuation_relative": 0.0075406426644033
+      },
+      "pod_test": {
+        "total_relative": 0.0019098736756398699,
+        "fluctuation_relative": 0.007544305915070315
+      },
+      "dmd_validation": {
+        "total_relative": 0.0019267088260846502,
+        "fluctuation_relative": 0.007607405800631885
+      },
+      "dmd_test": {
+        "total_relative": 0.0019381037896348723,
+        "fluctuation_relative": 0.007655819372065973
+      },
+      "dmd_frequency": 2.9875022820746215,
+      "linear_dmd_validation": {
+        "total_relative": 0.019972526107509717,
+        "fluctuation_relative": 0.07885940465239023
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.01909854500651313,
+        "fluctuation_relative": 0.0754423017080438
+      }
+    },
+    {
+      "rank": 12,
+      "training_energy_fraction": 0.9999937759723484,
+      "pod_validation": {
+        "total_relative": 0.000628096477635744,
+        "fluctuation_relative": 0.00247997243933977
+      },
+      "pod_test": {
+        "total_relative": 0.0006304760770400644,
+        "fluctuation_relative": 0.0024904811548492082
+      },
+      "dmd_validation": {
+        "total_relative": 0.0006368398982535577,
+        "fluctuation_relative": 0.002514494909899314
+      },
+      "dmd_test": {
+        "total_relative": 0.0006475706191017537,
+        "fluctuation_relative": 0.0025580073250019084
+      },
+      "dmd_frequency": 2.9875031351867904,
+      "linear_dmd_validation": {
+        "total_relative": 0.01989002864959787,
+        "fluctuation_relative": 0.0785336721746233
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.01901770950016146,
+        "fluctuation_relative": 0.07512298855320267
+      }
+    },
+    {
+      "rank": 16,
+      "training_energy_fraction": 0.9999998767085029,
+      "pod_validation": {
+        "total_relative": 8.985017154049753e-05,
+        "fluctuation_relative": 0.0003547638890272671
+      },
+      "pod_test": {
+        "total_relative": 9.18169729302028e-05,
+        "fluctuation_relative": 0.0003626917009310076
+      },
+      "dmd_validation": {
+        "total_relative": 0.00011835028658646358,
+        "fluctuation_relative": 0.00046729357570543073
+      },
+      "dmd_test": {
+        "total_relative": 0.0001719287642530636,
+        "fluctuation_relative": 0.0006791460658729444
+      },
+      "dmd_frequency": 2.9874978403665695,
+      "linear_dmd_validation": {
+        "total_relative": 0.019875866494904696,
+        "fluctuation_relative": 0.0784777544063006
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.019003641543743458,
+        "fluctuation_relative": 0.0750674178795131
+      }
+    },
+    {
+      "rank": 20,
+      "training_energy_fraction": 0.9999999783152391,
+      "pod_validation": {
+        "total_relative": 3.853950157413303e-05,
+        "fluctuation_relative": 0.00015216914141838271
+      },
+      "pod_test": {
+        "total_relative": 4.0849596413173326e-05,
+        "fluctuation_relative": 0.00016136242714842787
+      },
+      "dmd_validation": {
+        "total_relative": 6.910833343712481e-05,
+        "fluctuation_relative": 0.0002728669374136596
+      },
+      "dmd_test": {
+        "total_relative": 0.00010968020684444087,
+        "fluctuation_relative": 0.00043325432661687666
+      },
+      "dmd_frequency": 2.987504639660978,
+      "linear_dmd_validation": {
+        "total_relative": 0.02005548850317211,
+        "fluctuation_relative": 0.07918697288763778
+      },
+      "linear_dmd_test": {
+        "total_relative": 0.01917076937503806,
+        "fluctuation_relative": 0.07572759949376896
+      }
+    }
+  ],
+  "cadence_study": [
+    {
+      "stride": 1,
+      "dt": 0.010000000000001563,
+      "nyquist": 49.999999999992184,
+      "rank": 20,
+      "training_start": 27.0,
+      "training_end": 28.79,
+      "test_points": 61,
+      "dmd_frequency": 2.987504639660978,
+      "test": {
+        "total_relative": 0.00010968020684444087,
+        "fluctuation_relative": 0.00043325432661687666
+      }
+    },
+    {
+      "stride": 2,
+      "dt": 0.020000000000003126,
+      "nyquist": 24.999999999996092,
+      "rank": 20,
+      "training_start": 27.0,
+      "training_end": 28.78,
+      "test_points": 31,
+      "dmd_frequency": 2.987504684648392,
+      "test": {
+        "total_relative": 0.00010921064399153007,
+        "fluctuation_relative": 0.00043157149995545177
+      }
+    },
+    {
+      "stride": 4,
+      "dt": 0.04000000000000625,
+      "nyquist": 12.499999999998046,
+      "rank": 20,
+      "training_start": 27.0,
+      "training_end": 28.76,
+      "test_points": 16,
+      "dmd_frequency": 2.9875089766661955,
+      "test": {
+        "total_relative": 0.00011503340061327597,
+        "fluctuation_relative": 0.0004550951956337475
+      }
+    },
+    {
+      "stride": 8,
+      "dt": 0.0800000000000125,
+      "nyquist": 6.249999999999023,
+      "rank": 20,
+      "training_start": 27.0,
+      "training_end": 28.76,
+      "test_points": 8,
+      "dmd_frequency": 2.9874933575018106,
+      "test": {
+        "total_relative": 0.003330715507172504,
+        "fluctuation_relative": 0.013175717082237477
+      }
+    },
+    {
+      "stride": 16,
+      "dt": 0.160000000000025,
+      "nyquist": 3.1249999999995115,
+      "rank": 10,
+      "training_start": 27.0,
+      "training_end": 28.76,
+      "test_points": 4,
+      "dmd_frequency": 2.987029299275229,
+      "test": {
+        "total_relative": 0.06812086692957425,
+        "fluctuation_relative": 0.26601001088143694
+      }
+    }
+  ],
+  "window_study": [
+    {
+      "requested_duration": 0.5,
+      "actual_duration": 0.5,
+      "rank": 20,
+      "frequency": 2.9875492815040356,
+      "test": {
+        "total_relative": 3.232300918757394e-05,
+        "fluctuation_relative": 0.0001237158630725696
+      }
+    },
+    {
+      "requested_duration": 1.0,
+      "actual_duration": 1.0,
+      "rank": 20,
+      "frequency": 2.9875396708019926,
+      "test": {
+        "total_relative": 3.838417076607866e-05,
+        "fluctuation_relative": 0.00015241796638810958
+      }
+    },
+    {
+      "requested_duration": 1.5,
+      "actual_duration": 1.5,
+      "rank": 20,
+      "frequency": 2.9875251604350397,
+      "test": {
+        "total_relative": 8.395299039390824e-05,
+        "fluctuation_relative": 0.0003306098729652646
+      }
+    }
+  ]
+}
