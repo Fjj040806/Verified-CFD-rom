@@ -5,8 +5,8 @@
   "files": [
     {
       "path": ".github/workflows/core-checks.yml",
-      "bytes": 662,
-      "sha256": "543bdc73d63175a8c4c31a8710a336349778ca0d575f11293775c9a540fcc2d7"
+      "bytes": 1069,
+      "sha256": "705f4defa5076cbc71906206bdcfef375fd588b72d89b500ce22e32ac7ed28a9"
     },
     {
       "path": ".gitignore",
@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7316,
-      "sha256": "f15a52a4b163378733c92fcf086b5b8b03750aae35b1473a1db234f34db89c2f"
+      "bytes": 7907,
+      "sha256": "3a41fb70d161358e91a8acee02d933ab5a10e75029274fda46bf4cdd56c7f9ea"
     },
     {
       "path": "REPOSITORY-METADATA.md",
@@ -140,8 +140,13 @@
     },
     {
       "path": "extensions/pinn/README.md",
-      "bytes": 1501,
-      "sha256": "4a17fd163ac057dd54fc72f57e73742c4af0e55a4c5d67386f2788fb382d6716"
+      "bytes": 2233,
+      "sha256": "2767d34dba5bd59f466854ef134462cf043a3f2b0cfd886d9d2ad1865e277db4"
+    },
+    {
+      "path": "extensions/pinn/audit_phase1.py",
+      "bytes": 11029,
+      "sha256": "e911d3522dc35af10e41d5cfd0983ff7ddc25ca264ea193fec31ea356d5a7bfd"
     },
     {
       "path": "extensions/pinn/figures/phase0-analytic-mismatch.pdf",
@@ -194,6 +199,46 @@
       "sha256": "3af0193b120a5109050d8debcdbeedd9723a7c5ea4222a76bf2a5177f9275d07"
     },
     {
+      "path": "extensions/pinn/phase1-results/hidden-probes.npz",
+      "bytes": 2298,
+      "sha256": "22879ceefd2e5c0cd058f11e79bf9813dd057c4f7198e5f0b521a14bacc92dae"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/operator-audit.pdf",
+      "bytes": 27698,
+      "sha256": "65b63f91d045137031624dc6eb13adbe53ac330c52db0fbd5f2bd52d46753bb9"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/operator-audit.png",
+      "bytes": 227637,
+      "sha256": "b900ecc072553a1815c97c7027c3f793639270c667525aa5e343ae4dc64848c8"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/operator-audit.svg",
+      "bytes": 122895,
+      "sha256": "58c0feb1de01ac9fcbcae9ea4e9edc7441e7f64a6c32c95655f3ca3bbce52168"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/reduced-operators.npz",
+      "bytes": 1285403,
+      "sha256": "cabe140661124ad370d8562de2018b0b6d96fba154dd85d623a5b59c9ce2e3fd"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/sensor-probes.npz",
+      "bytes": 1643,
+      "sha256": "60bb289adf1b43b130e54ab26cb35b693602ea0cd5b61469a7b7476dce76f272"
+    },
+    {
+      "path": "extensions/pinn/phase1-results/summary.json",
+      "bytes": 5414,
+      "sha256": "9cd533df78baf2bb7fdeb7cc9848d8a3f638ae1ec4209d6f575127c15e6b9cfc"
+    },
+    {
+      "path": "extensions/pinn/phase1a-validation.md",
+      "bytes": 7651,
+      "sha256": "8ff71c7821ec3717a15d7bd60d0daa44c7ae51a6bd80c4eecac85d7cffc06dca"
+    },
+    {
       "path": "extensions/pinn/pilot-config.json",
       "bytes": 1546,
       "sha256": "018ec7f9584be696070801f8275eb706862a151d9bd207335e41308b505240ef"
@@ -202,6 +247,11 @@
       "path": "extensions/pinn/plot_phase0.py",
       "bytes": 6360,
       "sha256": "1a4f807a23cbb1aab06b681f432306d5f7c2252d0fedf69c27f480b1618bf67c"
+    },
+    {
+      "path": "extensions/pinn/requirements-operators.txt",
+      "bytes": 45,
+      "sha256": "70079b6d83285e64ecf4abd916536299f4acda4f8f1d4fcdf86771a6f5cbb22f"
     },
     {
       "path": "figures/math-modes-spectrum.pdf",
@@ -591,8 +641,8 @@
   ],
   "extensions": {
     "pinn": {
-      "phase": 0,
-      "status": "design and analytic checks; no training"
+      "phase": "1A",
+      "status": "saved-mesh operators and probes verified; AD and reference consistency gates pending; no PINN trained"
     }
   }
 }

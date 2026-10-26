@@ -1,0 +1,141 @@
+{
+  "stage": "Phase 1A: saved-mesh physics and sensor audit",
+  "no_pinn_trained": true,
+  "base_data_commit": "25f9dca3b068b92b9c3d904001ff9978f2f7ab10",
+  "offline_interval": [
+    27.0,
+    28.79
+  ],
+  "offline_frames": 180,
+  "complete_online_or_future_fields_used": false,
+  "velocity_dofs": 8152,
+  "mesh_coordinate_max_error": 0.0,
+  "mass_relative_frobenius_error": 0.0,
+  "divergence_matrix_relative_error": 0.0,
+  "mean_boundary_max_error": 6.661338147750939e-15,
+  "mode_boundary_relative_error": 1.543331503434781e-22,
+  "mode_weak_divergence_matrix_scaled": 2.8953745150259e-15,
+  "sensor_polynomial_max_error": 6.661338147750939e-16,
+  "hidden_polynomial_max_error": 8.881784197001252e-16,
+  "reduced_mass_max_identity_error": 9.476119888773837e-10,
+  "ranks": [
+    {
+      "rank": 6,
+      "tensor_max_scaled_error": 1.1525871693057744e-15,
+      "tensor_jacobian_scaled_error": 6.2088869323645005e-12,
+      "sensor_map_rank": 6,
+      "sensor_nullity": 0,
+      "sensor_condition_full_column": 4.857465577340378,
+      "sensor_singular_values": [
+        6.549136428702467,
+        4.483561224335599,
+        3.8156121987000273,
+        2.8169010311079394,
+        2.448839778510443,
+        1.3482620359171613
+      ],
+      "offline_closure_over_projected_rate": 0.011437602770551981,
+      "temporal_consistency": {
+        "centered3_mismatch_over_rate": 0.027869282184167933,
+        "centered5_mismatch_over_rate": 0.010345443678029219,
+        "centered7_mismatch_over_rate": 0.009444301455465737,
+        "fd5_vs_fd7_over_rate": 0.0009639418802825779,
+        "scope": "Combined saved-trajectory/derivative/solver consistency diagnostic, not a pure time-error estimate"
+      },
+      "weak_mode_absolute_norm": 9.18079249850561e-16,
+      "galerkin_diagnostic": {
+        "status": "completed",
+        "relative_mass_trajectory_tolerance_change": 8.297626497970262e-09,
+        "offline_total_error": 0.026651835185771893,
+        "offline_fluctuation_error": 0.10603266491046913,
+        "evaluation_role": "offline full-state-initialized diagnostic only"
+      }
+    },
+    {
+      "rank": 10,
+      "tensor_max_scaled_error": 1.6589451726378514e-15,
+      "tensor_jacobian_scaled_error": 2.0330975987752053e-12,
+      "sensor_map_rank": 10,
+      "sensor_nullity": 0,
+      "sensor_condition_full_column": 21.73189880717269,
+      "sensor_singular_values": [
+        7.931382898568059,
+        4.998117568511764,
+        4.4138589480367445,
+        4.059238966542647,
+        3.03845941149111,
+        2.6839224381464852,
+        2.0960484827981642,
+        1.0148340555248063,
+        0.8228553051290817,
+        0.36496502072567527
+      ],
+      "offline_closure_over_projected_rate": 0.005468447383860439,
+      "temporal_consistency": {
+        "centered3_mismatch_over_rate": 0.036344390279322014,
+        "centered5_mismatch_over_rate": 0.014460632474346247,
+        "centered7_mismatch_over_rate": 0.012584960400659819,
+        "fd5_vs_fd7_over_rate": 0.0021036074096767916,
+        "scope": "Combined saved-trajectory/derivative/solver consistency diagnostic, not a pure time-error estimate"
+      },
+      "weak_mode_absolute_norm": 3.9321079035369836e-15,
+      "galerkin_diagnostic": {
+        "status": "completed",
+        "relative_mass_trajectory_tolerance_change": 2.86565889363904e-09,
+        "offline_total_error": 0.01970080893621757,
+        "offline_fluctuation_error": 0.07837844027770027,
+        "evaluation_role": "offline full-state-initialized diagnostic only"
+      }
+    },
+    {
+      "rank": 20,
+      "tensor_max_scaled_error": 1.2488364964623839e-15,
+      "tensor_jacobian_scaled_error": 7.380736382058936e-13,
+      "sensor_map_rank": 16,
+      "sensor_nullity": 4,
+      "sensor_condition_full_column": null,
+      "sensor_singular_values": [
+        8.45977838168603,
+        5.940213579252327,
+        5.116141003323236,
+        4.376870272698474,
+        3.9499846955083484,
+        3.3380818502966045,
+        2.5492583658690906,
+        1.719878909256767,
+        1.4503541116275571,
+        1.3051640707028331,
+        1.0127384236335386,
+        0.8349223313359324,
+        0.8072418850193117,
+        0.5129712185343036,
+        0.46373416756067865,
+        0.20704685346861235
+      ],
+      "offline_closure_over_projected_rate": 0.00022313135093438588,
+      "temporal_consistency": {
+        "centered3_mismatch_over_rate": 0.038577084725800216,
+        "centered5_mismatch_over_rate": 0.015919191239772947,
+        "centered7_mismatch_over_rate": 0.013591622648485853,
+        "fd5_vs_fd7_over_rate": 0.0026535275172388964,
+        "scope": "Combined saved-trajectory/derivative/solver consistency diagnostic, not a pure time-error estimate"
+      },
+      "weak_mode_absolute_norm": 7.602225416205543e-13,
+      "galerkin_diagnostic": {
+        "status": "completed",
+        "relative_mass_trajectory_tolerance_change": 1.7395780413661707e-09,
+        "offline_total_error": 0.022279235912133905,
+        "offline_fluctuation_error": 0.08863655127185067,
+        "evaluation_role": "offline full-state-initialized diagnostic only"
+      }
+    }
+  ],
+  "autodiff_gate": "pending: no neural-library AD claimed; tensor derivative checked analytically versus finite differences",
+  "runtime_seconds": 4.821278661999713,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "skfem": "12.0.2"
+  }
+}

@@ -108,9 +108,9 @@ Regenerate the mathematical figures and compact wake animation:
 PYTHONPATH=src OPENBLAS_NUM_THREADS=1 python experiments/visualize_mathematics.py
 ```
 
-## PINN extension: Phase 0
+## PINN extension: Phase 1A
 
-The next study examines sparse flow reconstruction conditional on an offline POD basis, with explicit controls for truncation discrepancy and sensor information. **Phase 0 is a design checkpoint; no trained PINN result is claimed.**
+The next study examines sparse flow reconstruction conditional on an offline POD basis, with explicit controls for truncation discrepancy and sensor information. **The saved-mesh operator/probe audit is complete; automatic differentiation and reference-rate consistency remain pretraining gates. No trained PINN result is claimed.**
 
 - [Research protocol and mathematical formulation](extensions/pinn/phase0-protocol.md)
 - [Predeclared pilot configuration](extensions/pinn/pilot-config.json)
@@ -120,3 +120,11 @@ The next study examines sparse flow reconstruction conditional on an offline POD
 
 *Planned sensor positions, information windows, and the reduced-physics loss. This is a design schematic, not an optimized sensor layout or a learned flow.*
 
+
+### Saved-mesh physics and sensor audit
+
+[Phase 1A validation report](extensions/pinn/phase1a-validation.md) · [Reproduction script](extensions/pinn/audit_phase1.py)
+
+![Offline reduced-operator, sensor, and Galerkin diagnostics](extensions/pinn/phase1-results/operator-audit.png)
+
+*These are offline model diagnostics using a known full initial state, not sparse-data or neural prediction results. A continuous-rate/saved-trajectory mismatch is reported separately from spatial closure.*

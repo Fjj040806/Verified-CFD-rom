@@ -1,6 +1,6 @@
 # Physics-informed reduced-order modeling extension
 
-**Current checkpoint: Phase 0 completed. No PINN has been trained.**
+**Current checkpoint: Phase 1A operator/probe audit completed. No PINN has been trained.**
 
 Question: when do reduced physics constraints improve sparse flow reconstruction, and when does truncation discrepancy make the constraint misleading?
 
@@ -24,3 +24,17 @@ python extensions/pinn/plot_phase0.py
 Only the existing NumPy/Matplotlib dependencies are needed. PNG, SVG, and vector PDF figures are generated. Torch training, FEM sensor probing, and intrusive reduced-operator assembly belong to the next stages.
 
 The original CFD/POD/DMD study and its manuscript retain their existing claims. The extension will update the empirical paper only after new models and fair controls are actually evaluated.
+
+## Phase 1A numerical results
+
+[Saved-mesh operator and sensor validation](phase1a-validation.md) reports exact reassembly agreement, verified P2 probes, reduced quadratic operators, and offline Galerkin diagnostics. Automatic differentiation and saved-trajectory consistency remain Phase 1B pretraining gates.
+
+![Offline operator and sensor diagnostics](phase1-results/operator-audit.png)
+
+*Only the offline full-field window is used. This is not a trained PINN, an online sparse-reconstruction result, or a comparison with the earlier DMD test window.*
+
+Reproduce:
+```bash
+python -m pip install -r extensions/pinn/requirements-operators.txt
+OPENBLAS_NUM_THREADS=1 python extensions/pinn/audit_phase1.py
+```
