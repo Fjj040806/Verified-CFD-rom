@@ -1,0 +1,11 @@
+{
+  "scope": "analytic and configuration checks only; no mesh probes, FEM tensors or trained model verified",
+  "pilot_design_consistent": true,
+  "nominal_sensor_coordinates_inside_analytic_fluid_domain": true,
+  "time_intervals_disjoint": true,
+  "future_information_disabled": true,
+  "analytic_stationarity_max_abs": 4.440892098500626e-16,
+  "analytic_error_monotonicity": true,
+  "phase0_complete": true,
+  "next_gate": "saved-mesh operator and sensor validation"
+}

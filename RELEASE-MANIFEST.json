@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6571,
-      "sha256": "bf92db3e2a9fb9123095fe4e7d293366414e27600216141a8bb59b63fbe739b5"
+      "bytes": 7316,
+      "sha256": "f15a52a4b163378733c92fcf086b5b8b03750aae35b1473a1db234f34db89c2f"
     },
     {
       "path": "REPOSITORY-METADATA.md",
@@ -137,6 +137,71 @@
       "path": "experiments/visualize_phase5.py",
       "bytes": 1963,
       "sha256": "1765c169bdafaf18d1c7f78024da389c36d5cdf823483f42fe02f3e02394f394"
+    },
+    {
+      "path": "extensions/pinn/README.md",
+      "bytes": 1501,
+      "sha256": "4a17fd163ac057dd54fc72f57e73742c4af0e55a4c5d67386f2788fb382d6716"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-analytic-mismatch.pdf",
+      "bytes": 29012,
+      "sha256": "0ef58d331de0f17a82b7dc32a2be993be6e13834ddbde89739835d528fee65a4"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-analytic-mismatch.png",
+      "bytes": 202198,
+      "sha256": "3432a7699452345eed21987c22f6f4d074d4d2d00d296eb51e175d9b91c98482"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-analytic-mismatch.svg",
+      "bytes": 104214,
+      "sha256": "5705f4102348a4903c9c5189469ef10a6634a1e4db1977ed813a8ecd7460b4d2"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-principle.pdf",
+      "bytes": 32962,
+      "sha256": "8185c40c93d737546f605b916e49def303bfecc1f1a879397db6ee9ded350891"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-principle.png",
+      "bytes": 226075,
+      "sha256": "0938e806fb5675d957773501247c48258082ed1c5c26d71be556a18b2744b828"
+    },
+    {
+      "path": "extensions/pinn/figures/phase0-principle.svg",
+      "bytes": 104583,
+      "sha256": "169314ed5a6d2cbbcceaa8adbe616845246b097e34609ab28051d65cdc38f74c"
+    },
+    {
+      "path": "extensions/pinn/phase0-analytic-data.json",
+      "bytes": 12188,
+      "sha256": "9633597013d3c3d3762b83f1b7a27d8467087176a5bba49d0063bf948ee1b537"
+    },
+    {
+      "path": "extensions/pinn/phase0-checks.json",
+      "bytes": 470,
+      "sha256": "ee10ca27fc077150eb1d0231049e3614670b692170341d760f5114c1246e4945"
+    },
+    {
+      "path": "extensions/pinn/phase0-protocol.md",
+      "bytes": 17228,
+      "sha256": "52ffda4e1fd1d942fe2a5aa6c49c77b699a75ba9ba01130edc7985d79655974f"
+    },
+    {
+      "path": "extensions/pinn/phase1-gates.md",
+      "bytes": 2861,
+      "sha256": "3af0193b120a5109050d8debcdbeedd9723a7c5ea4222a76bf2a5177f9275d07"
+    },
+    {
+      "path": "extensions/pinn/pilot-config.json",
+      "bytes": 1546,
+      "sha256": "018ec7f9584be696070801f8275eb706862a151d9bd207335e41308b505240ef"
+    },
+    {
+      "path": "extensions/pinn/plot_phase0.py",
+      "bytes": 6360,
+      "sha256": "1a4f807a23cbb1aab06b681f432306d5f7c2252d0fedf69c27f480b1618bf67c"
     },
     {
       "path": "figures/math-modes-spectrum.pdf",
@@ -523,5 +588,11 @@
       "bytes": 1684,
       "sha256": "7ee2cb5ee34b784467230440f1634c56429dfe81f6697cfa52359c9f592ca2dc"
     }
-  ]
+  ],
+  "extensions": {
+    "pinn": {
+      "phase": 0,
+      "status": "design and analytic checks; no training"
+    }
+  }
 }
