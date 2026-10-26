@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8340,
-      "sha256": "c51d4e87b3c00888acb1a8220131c2e82c174329c7ba0013bd90140db4b2bae6"
+      "bytes": 8736,
+      "sha256": "b1ac9b1f86f2e860e9059a01eb57c1922d24ee167ae408f2919f42a6435b8bfd"
     },
     {
       "path": "REPOSITORY-METADATA.md",
@@ -140,8 +140,8 @@
     },
     {
       "path": "extensions/pinn/README.md",
-      "bytes": 2634,
-      "sha256": "f26736e36d4433d0132942462770a6cc59890aca415c200359152074fe910496"
+      "bytes": 2982,
+      "sha256": "a3a1774af443cbd149de9da0cb3c5d8463c9b166ee8adecb342ed07572ada35b"
     },
     {
       "path": "extensions/pinn/audit_phase1.py",
@@ -354,9 +354,124 @@
       "sha256": "8743f1972ff9247bab8a6dbf364f9433c006c2fd6d99e31b5eddc75fc2af8ee2"
     },
     {
+      "path": "extensions/pinn/phase3-continuation.md",
+      "bytes": 6813,
+      "sha256": "29cc03c1bb953728fe1a559d9771ba9507b23d0e3e3704f9e01d484cbf4173a8"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/config.json",
+      "bytes": 373,
+      "sha256": "4652993882b613a97df94653e93207b6e5531b1d03e5e36708b5801f8a5ebf38"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation-comparison.pdf",
+      "bytes": 19183,
+      "sha256": "681bebb8c592931b682823cda1268c49f06a9e95bb48f766097c244f4f86700c"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation-comparison.png",
+      "bytes": 93830,
+      "sha256": "560fce903867e2d281e57b9b9ba79078bd9aed1c31fa5beff68dbf2b5d3048e6"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation-comparison.svg",
+      "bytes": 49513,
+      "sha256": "17d05135f5d7a1afe3c28f3939bf1c1f3172702479e6aba20f30ef509abda8ec"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0.1_s0.pt",
+      "bytes": 23747,
+      "sha256": "2a159eb333daceac56d8ab6f4c89335c795f77dcbbfdbce694fd4acf8ba8ed98"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0.1_s1.pt",
+      "bytes": 23747,
+      "sha256": "c33ba677450d52096fae794fdf21049a9b4a6271b4dcd3c1d6167557e97b958a"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0.1_s2.pt",
+      "bytes": 23747,
+      "sha256": "4b9a908b83f9766a1276c0c7cd8dda6b3d0eb10e1e763ac6db06034c656125a0"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0_s0.pt",
+      "bytes": 23719,
+      "sha256": "de352c3c1de19f0df25d773db26dd3d56610e2f7c7e60e4213f1177208f125bc"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0_s1.pt",
+      "bytes": 23719,
+      "sha256": "61bb0ee9575c717dc0340d6e53cb8503497aa335cdf31e0ee253ede021583ede"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b0_s2.pt",
+      "bytes": 23719,
+      "sha256": "0ebfaf7a7447da4bf695a5f0842c385fcf8469b37e52a8e94ce98e7784f845a7"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b1_s0.pt",
+      "bytes": 23719,
+      "sha256": "0cc377a35db93469fa9a253ccc0b5a98388b173baaba79fe625e4935527641b3"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b1_s1.pt",
+      "bytes": 23719,
+      "sha256": "5b720ccf689cbe4c77ac212d87ac2fa6c594da26b57166cc0fe369b5b903c11c"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/continuation_b1_s2.pt",
+      "bytes": 23719,
+      "sha256": "8fea9c44d14a9b4246d32519c4f027416d0a116e4fcb5da457155e95848066a8"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/histories.json",
+      "bytes": 21463,
+      "sha256": "473b736b33a1ea909560359ff1c74d7bf0c9c41eda845a4808c1d21a8632a547"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/metrics.json",
+      "bytes": 3895,
+      "sha256": "5ea97f2ab9b6cce404f1c7fa72e66ca0e0878e1c1e203749ee5b6267d1c8b2ef"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/predictions.npz",
+      "bytes": 85169,
+      "sha256": "87c2b66aff1c045679f4548c4df4b967aa3f14de2629e5e60b15f94859f93970"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/training.json",
+      "bytes": 3318,
+      "sha256": "ce44ec6dfa17eb651ead0fb4d1db4ad6f63569cd22b1b24758867fdecc6a92cb"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/wake-evolution.gif",
+      "bytes": 3978481,
+      "sha256": "d982d83d1371528436b030f598d9b2b54a183a98664101189196576f98d6b31c"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/wake-reconstruction.pdf",
+      "bytes": 331921,
+      "sha256": "1bf788d5ca51fee0065cb86df91be09af0a0a583f02213b90fff8f10df4d22e6"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/wake-reconstruction.png",
+      "bytes": 405991,
+      "sha256": "7417b0c70a25499312c6754e0a7154aa6a5a8574b535ea9e7518de24b017f103"
+    },
+    {
+      "path": "extensions/pinn/phase3-results/wake-reconstruction.svg",
+      "bytes": 536267,
+      "sha256": "877a8f581ab9b1415c7d7599bd11061a8fe382bdaae8184e860ce6040cde0dcd"
+    },
+    {
       "path": "extensions/pinn/pilot-config.json",
       "bytes": 1945,
       "sha256": "04186a7098557493baba43791c0257bc4eaba8e21dc3889872a6562e677a6f6e"
+    },
+    {
+      "path": "extensions/pinn/plot_continuation.py",
+      "bytes": 4865,
+      "sha256": "bb5fdd991b6ea4ed495b694ea932f5d474e62426ad1f42f5a5d32f5991a286ee"
     },
     {
       "path": "extensions/pinn/plot_phase0.py",
@@ -377,6 +492,11 @@
       "path": "extensions/pinn/requirements-training.txt",
       "bytes": 102,
       "sha256": "c7fa6ee4c9465a2ac77b287c9eca992f36a7c44c329f4be06e2ec9ee9e1cd4cb"
+    },
+    {
+      "path": "extensions/pinn/run_continuation.py",
+      "bytes": 4442,
+      "sha256": "b3b0c0385e2c9d95d3d9d73b897ab4a7da712b060e32676f66b8a0084e60ffa7"
     },
     {
       "path": "extensions/pinn/run_pilot.py",

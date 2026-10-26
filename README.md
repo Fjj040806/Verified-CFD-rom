@@ -135,3 +135,12 @@ The next study examines sparse flow reconstruction conditional on an offline POD
 All nine predeclared fixed-budget fits have now been trained and evaluated against sparse-observation baselines. Positive physics penalties reduce residuals but worsen reconstruction in this pilot; all runs are retained. See [pilot report](extensions/pinn/phase2-pilot.md) for equations, metrics, limitations and reproduction instructions.
 
 ![PINN pilot](extensions/pinn/phase2-results/pilot-comparison.png)
+
+
+## Physics continuation and wake simulations
+
+The next nine equal-budget continuation fits are complete. See the [continuation study](extensions/pinn/phase3-continuation.md) for fixed normalization, schedules, all-seed results and limitations.
+
+![Wake reconstruction](extensions/pinn/phase3-results/wake-reconstruction.png)
+
+![Wake animation](extensions/pinn/phase3-results/wake-evolution.gif)

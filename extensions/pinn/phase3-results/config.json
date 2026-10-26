@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "beta": [
+    0,
+    0.1,
+    1
+  ],
+  "additional_updates": 4000,
+  "ramp_updates": 2000,
+  "learning_rate": 0.0003,
+  "normalization": "each initial checkpoint sensor/physics MSE, fixed thereafter",
+  "optimizer": "fresh Adam; all arms restart optimizer",
+  "evaluation_selection": "all final iterates; no full-field selection"
+}

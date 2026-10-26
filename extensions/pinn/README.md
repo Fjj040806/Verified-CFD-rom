@@ -45,3 +45,12 @@ OPENBLAS_NUM_THREADS=1 python extensions/pinn/audit_phase1.py
 All nine predeclared fixed-budget fits have now been trained and evaluated against sparse-observation baselines. Positive physics penalties reduce residuals but worsen reconstruction in this pilot; all runs are retained. See [pilot report](phase2-pilot.md) for equations, metrics, limitations and reproduction instructions.
 
 ![PINN pilot](phase2-results/pilot-comparison.png)
+
+
+## Physics continuation and wake simulations
+
+The next nine equal-budget continuation fits are complete. See the [continuation study](phase3-continuation.md) for fixed normalization, schedules, all-seed results and limitations.
+
+![Wake reconstruction](phase3-results/wake-reconstruction.png)
+
+![Wake animation](phase3-results/wake-evolution.gif)
