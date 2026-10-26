@@ -128,3 +128,10 @@ The next study examines sparse flow reconstruction conditional on an offline POD
 ![Offline reduced-operator, sensor, and Galerkin diagnostics](extensions/pinn/phase1-results/operator-audit.png)
 
 *These are offline model diagnostics using a known full initial state, not sparse-data or neural prediction results. A continuous-rate/saved-trajectory mismatch is reported separately from spatial closure.*
+
+
+## Trained PINN pilot
+
+All nine predeclared fixed-budget fits have now been trained and evaluated against sparse-observation baselines. Positive physics penalties reduce residuals but worsen reconstruction in this pilot; all runs are retained. See [pilot report](extensions/pinn/phase2-pilot.md) for equations, metrics, limitations and reproduction instructions.
+
+![PINN pilot](extensions/pinn/phase2-results/pilot-comparison.png)

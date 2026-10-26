@@ -25,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7907,
-      "sha256": "3a41fb70d161358e91a8acee02d933ab5a10e75029274fda46bf4cdd56c7f9ea"
+      "bytes": 8340,
+      "sha256": "c51d4e87b3c00888acb1a8220131c2e82c174329c7ba0013bd90140db4b2bae6"
     },
     {
       "path": "REPOSITORY-METADATA.md",
@@ -140,8 +140,8 @@
     },
     {
       "path": "extensions/pinn/README.md",
-      "bytes": 2233,
-      "sha256": "2767d34dba5bd59f466854ef134462cf043a3f2b0cfd886d9d2ad1865e277db4"
+      "bytes": 2634,
+      "sha256": "f26736e36d4433d0132942462770a6cc59890aca415c200359152074fe910496"
     },
     {
       "path": "extensions/pinn/audit_phase1.py",
@@ -239,9 +239,124 @@
       "sha256": "8ff71c7821ec3717a15d7bd60d0daa44c7ae51a6bd80c4eecac85d7cffc06dca"
     },
     {
+      "path": "extensions/pinn/phase2-pilot.md",
+      "bytes": 6581,
+      "sha256": "5c2255d2fd2bb9e0d5d4e9ef14900979d48d14703ac1bb3c8c58a68292a48e7b"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/autodiff-checks.json",
+      "bytes": 199,
+      "sha256": "7034f3af8dd22d610229f18755aa3b13b66a5911818c402a537bead7a2786bc1"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/baseline-fit.json",
+      "bytes": 294,
+      "sha256": "c72ce9bfffe8169a190d3cda504731f4c7c8c664a23c5c8d3e54be75f05dfae5"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/coefficient-trajectories.pdf",
+      "bytes": 26386,
+      "sha256": "465b9373f2bbe6f621609e99426684a13a7de218863ffaacca1c4b2110b65fea"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/coefficient-trajectories.png",
+      "bytes": 209198,
+      "sha256": "31618e93640a51fecbc106595f7c290dbd44e157d7e62e074748adf2a9fcf7d9"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/coefficient-trajectories.svg",
+      "bytes": 83168,
+      "sha256": "950defea6f63095e20d2bc492b862d7424bd2993c477772a94d85c3020b86ca4"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/histories.json",
+      "bytes": 15041,
+      "sha256": "1340603ead4f554dba9f7dc5cd5bce5465c9447c380f3dafbfef3111e98ff69d"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/metrics.json",
+      "bytes": 5614,
+      "sha256": "fb3aed8d64167d0e6467b93cf70b763cce2e7164c574ed1cb0894cdb560559aa"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/neural-predictions.npz",
+      "bytes": 84974,
+      "sha256": "1210518f762ef9341a931c455b95b6b9b64a5a090c96b9583c5547e9ca9790fa"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0.1_s0.pt",
+      "bytes": 23607,
+      "sha256": "1c5f3d6bab06d192b6f1daededbba8b78f6ec74fa88567a97a7bcf144e682332"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0.1_s1.pt",
+      "bytes": 23607,
+      "sha256": "3b1dd0792766a0fb457102d31f12ef4d251eda7d859dff13a03d8298c8456064"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0.1_s2.pt",
+      "bytes": 23607,
+      "sha256": "ef460e8c14303d19978e0beed5a2ffc11ac73a44bfaa51af9330f36672a354ae"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0_s0.pt",
+      "bytes": 23579,
+      "sha256": "93275725ab8dc9d56adaa5c31d316a43d3c6a4f26fc7e798ffe29288f7b17aea"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0_s1.pt",
+      "bytes": 23579,
+      "sha256": "8247dada8ad7ed1aae4802257bd4c53e376d5bff45ffbe44248e1462237a5d61"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w0_s2.pt",
+      "bytes": 23579,
+      "sha256": "f98cd8b444543310d5121f9b31bbba979a0738fb9bfbaa4dbb719a80dc94ea77"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w1_s0.pt",
+      "bytes": 23579,
+      "sha256": "215e814716b05871ad6b9855f5b991dc8ed7212271c662386f9cf9f674c4ade9"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w1_s1.pt",
+      "bytes": 23579,
+      "sha256": "98bdd9879cc6c00b96b8feedc9145a75b185c203a73a81126764fc73f2e56526"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/nn_w1_s2.pt",
+      "bytes": 23579,
+      "sha256": "2cd5ad9afb5562cf4f25e356fef4e8ed2024f62d330a1fa487b893006ccc7d7b"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/pilot-comparison.pdf",
+      "bytes": 24689,
+      "sha256": "aa578cb7f04b7a8368342a35ea66af03d70444365ea1415f3ad270bc28900e60"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/pilot-comparison.png",
+      "bytes": 114256,
+      "sha256": "e5494a4afd496152f560326eaeaa8199af04c8b0052daf801785da3e554a6e58"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/pilot-comparison.svg",
+      "bytes": 92072,
+      "sha256": "ba44e9caa0cc540f04bd902a4b73ef1ccd27bcbe727341a20ad4a28c65c5d053"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/predictions.npz",
+      "bytes": 118588,
+      "sha256": "3be75b5b2af2ccd176da4958fab0c164817ea728175073a4e4c1bba1ce53605a"
+    },
+    {
+      "path": "extensions/pinn/phase2-results/training.json",
+      "bytes": 2713,
+      "sha256": "8743f1972ff9247bab8a6dbf364f9433c006c2fd6d99e31b5eddc75fc2af8ee2"
+    },
+    {
       "path": "extensions/pinn/pilot-config.json",
-      "bytes": 1546,
-      "sha256": "018ec7f9584be696070801f8275eb706862a151d9bd207335e41308b505240ef"
+      "bytes": 1945,
+      "sha256": "04186a7098557493baba43791c0257bc4eaba8e21dc3889872a6562e677a6f6e"
     },
     {
       "path": "extensions/pinn/plot_phase0.py",
@@ -249,9 +364,24 @@
       "sha256": "1a4f807a23cbb1aab06b681f432306d5f7c2252d0fedf69c27f480b1618bf67c"
     },
     {
+      "path": "extensions/pinn/plot_pilot_coefficients.py",
+      "bytes": 1215,
+      "sha256": "11a64ee3f1626ce72f23bb0b8b885949ce711661f3d1099e9661f5c0c4262f38"
+    },
+    {
       "path": "extensions/pinn/requirements-operators.txt",
       "bytes": 45,
       "sha256": "70079b6d83285e64ecf4abd916536299f4acda4f8f1d4fcdf86771a6f5cbb22f"
+    },
+    {
+      "path": "extensions/pinn/requirements-training.txt",
+      "bytes": 102,
+      "sha256": "c7fa6ee4c9465a2ac77b287c9eca992f36a7c44c329f4be06e2ec9ee9e1cd4cb"
+    },
+    {
+      "path": "extensions/pinn/run_pilot.py",
+      "bytes": 8501,
+      "sha256": "874edb9edcbf17f782bcbcbb784532705168f22f25f3079bec4d9e991a794806"
     },
     {
       "path": "figures/math-modes-spectrum.pdf",

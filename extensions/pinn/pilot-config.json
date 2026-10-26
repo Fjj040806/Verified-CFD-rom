@@ -1,26 +1,95 @@
 {
-  "status": "predeclared pilot; not trained",
+  "status": "completed frozen pilot; all nine final iterates reported",
   "baseline_commit": "25f9dca3b068b92b9c3d904001ff9978f2f7ab10",
   "known_viscosity": 0.001,
   "reynolds_number": 100,
-  "offline_interval": [27.0, 28.79],
-  "online_interval": [28.8, 29.39],
-  "future_evaluation_interval": [29.4, 30.0],
+  "offline_interval": [
+    27.0,
+    28.79
+  ],
+  "online_interval": [
+    28.8,
+    29.39
+  ],
+  "future_evaluation_interval": [
+    29.4,
+    30.0
+  ],
   "offline_snapshots": 180,
   "online_snapshot_times": 60,
   "future_snapshots": 61,
   "snapshot_dt": 0.01,
   "solver_dt": 0.005,
   "rank": 10,
-  "sensors": [[0.35,0.12],[0.35,0.29],[0.65,0.12],[0.65,0.29],[1.0,0.12],[1.0,0.29],[1.4,0.12],[1.4,0.29]],
+  "sensors": [
+    [
+      0.35,
+      0.12
+    ],
+    [
+      0.35,
+      0.29
+    ],
+    [
+      0.65,
+      0.12
+    ],
+    [
+      0.65,
+      0.29
+    ],
+    [
+      1.0,
+      0.12
+    ],
+    [
+      1.0,
+      0.29
+    ],
+    [
+      1.4,
+      0.12
+    ],
+    [
+      1.4,
+      0.29
+    ]
+  ],
   "components_per_sensor": 2,
   "observation_row_order": "u0,v0,u1,v1,...",
   "noise_standard_deviation_over_mean_velocity": 0.0,
-  "physics_weights": [0.0,0.1,1.0],
-  "paired_seeds": [0,1,2],
-  "network": {"hidden_layers":3,"width":32,"activation":"tanh","dtype":"float64","input":"normalized online time","output":"scaled POD coefficients"},
-  "optimizer": {"name":"Adam","learning_rate":0.001,"updates":2000,"iterate_selection":"fixed final iterate"},
-  "collocation": {"count":128,"normalized_interval":[0.0,1.0],"placement":"equally spaced; fixed across weights"},
+  "physics_weights": [
+    0.0,
+    0.1,
+    1.0
+  ],
+  "paired_seeds": [
+    0,
+    1,
+    2
+  ],
+  "network": {
+    "hidden_layers": 3,
+    "width": 32,
+    "activation": "tanh",
+    "dtype": "float64",
+    "input": "normalized online time",
+    "output": "scaled POD coefficients"
+  },
+  "optimizer": {
+    "name": "Adam",
+    "learning_rate": 0.001,
+    "updates": 2000,
+    "iterate_selection": "fixed final iterate"
+  },
+  "collocation": {
+    "count": 128,
+    "normalized_interval": [
+      0.0,
+      1.0
+    ],
+    "placement": "equally spaced; fixed across weights"
+  },
   "coefficient_scale_floor_over_leading_std": 0.001,
   "full_state_initial_condition_labels": false,
   "future_observations_in_training": false,

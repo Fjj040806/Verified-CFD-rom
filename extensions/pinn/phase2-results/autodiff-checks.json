@@ -1,0 +1,6 @@
+{
+  "torch_version": "2.14.1+cpu",
+  "jvp_max_abs_error": 4.951718202139688e-11,
+  "analytic_physical_time_derivative_error": 0.0,
+  "mixed_parameter_gradient_relative_error": 2.951133337703027e-09
+}

@@ -38,3 +38,10 @@ Reproduce:
 python -m pip install -r extensions/pinn/requirements-operators.txt
 OPENBLAS_NUM_THREADS=1 python extensions/pinn/audit_phase1.py
 ```
+
+
+## Trained PINN pilot
+
+All nine predeclared fixed-budget fits have now been trained and evaluated against sparse-observation baselines. Positive physics penalties reduce residuals but worsen reconstruction in this pilot; all runs are retained. See [pilot report](phase2-pilot.md) for equations, metrics, limitations and reproduction instructions.
+
+![PINN pilot](phase2-results/pilot-comparison.png)
